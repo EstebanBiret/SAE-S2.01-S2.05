@@ -30,6 +30,8 @@ Dans la version existante (V0), un ** chef d’agence ** peut :
 
 ** Rendre inactif un client.
 
+image::Capture.PNG[]
+
 == Analyse des besoins de la Version 1 :
 
 Dans la V1 du logiciel, de nouvelles fonctionnalités seront ajoutées. +
@@ -46,6 +48,8 @@ Le ** Guichetier ** pourra désormais :
 Le **Chef d’Agence ** pourra désormais :
 
 ** Gérer (faire le « CRUD ») les employés (guichetier et chef d’agence). +
+
+image::Capture2.PNG[]
 
 == Analyse des contraintes techniques & organisationnelles :
 
