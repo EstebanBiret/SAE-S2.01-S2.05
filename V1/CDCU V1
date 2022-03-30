@@ -1,0 +1,118 @@
+:toc:
+= Cahier des charges utilisateur V1
+
+
+Nom de l'auteur : BIRET-TOSCANO Esteban +
+Equipe : 4A-03 +
+v1.0, 2022-29-03 +
+
+== Présentation du sujet :
+
+1. **Contexte :** +
+La banque DailyBank souhaite développer une application JAVA-Oracle de gestion des comptes clients pour remplacer plusieurs outils obsolètes. Ce développement s’inscrit dans le cadre de la restructuration de ses services bancaires et l’application sera déployée dans les 100 agences que compte son réseau. Nous travaillerons à partir d’une application existante « Daily Bank » qu’il faudra adapter aux nouveaux besoins de la banque.
+
+2. **Objectifs :** +
+L’application doit permettre de gérer des comptes bancaires de dépôt pour des clients préalablement créés. Elle devra permettre de débiter, créditer un compte soit par virement c’est à dire un échange d’argent entre deux comptes distincts mais domiciliés dans le réseau bancaire, soit par une personne physique se présentant devant un guichet.
+
+== Analyse de l’existant (Version 0) :
+
+Dans la version existante (V0), un ** guichetier ** peut :
+
+** Modifier les informations d'un client (adresse, téléphone, …).
+
+** Créer un nouveau client.
+
+** Consulter un compte.
+
+** Débiter un compte (BD).
+
+Dans la version existante (V0), un ** chef d’agence ** peut :
+
+** Rendre inactif un client.
+
+== Analyse des besoins de la Version 1 :
+
+Dans la V1 du logiciel, de nouvelles fonctionnalités seront ajoutées. +
+Le ** Guichetier ** pourra désormais :
+
+** Créditer/débiter un compte (java et BD avec procédure stockée).
+
+** Créer un compte.
+
+** Effectuer un virement de compte à compte.
+
+** Clôturer un compte. +
+
+Le **Chef d’Agence ** pourra désormais :
+
+** Gérer (faire le « CRUD ») les employés (guichetier et chef d’agence). +
+
+== Analyse des contraintes techniques & organisationnelles :
+
+1. **Contraintes techniques :** +
+L'objectif technique de ce projet est de développer 3 versions du logiciel, répondant à plus de besoins les unes que les autres.
+Dans ce projet, les langages de programation sont JAVA (pour les fonctionnalités du logiciel) et Oracle SQL (pour la base de données de la banque).
+
+2.1 **Contraintes organisationnelles pour la gestion de projet:** +
+
+** 2 séances semaine 13 :
+
+*** Lire toutes les consignes.
+
+*** Préparer le dépôt du groupe sous GI.
+
+*** Rédiger en asciidoc le CDCU V1.
+
+*** Définir et ordonnancer les tâches du projet, les formaliser via des issues, les classer (Must/Should/Could/Will) et les affecter.
+
+*** Faire un GANTT à l’aide de l’outil de votre choix et le déposer en pdf de préférence sur 1 seule page.
+
+*** Créer les issues du projet.
+
+** 1 séance semaine 15 :
+
+*** Prendre en compte les remarques de la V1 dans le WIKI du projet.
+
+*** Rédiger le CDCU V2 et V3 et faire le GANTT V2 et V3.
+
+*** Créer les issues correspondantes.
+
+*** Créer la documentation Technique et la documentation utilisateur de la V0.
+
+*** Créer le cahier de TEST V1.
+
+** 1 séance semaine 20 :
+
+*** Prendre en compte les remarques.
+
+*** Rédiger la documentation technique et la documentation utilisateur V1.
+
+*** Rédiger le cahier de test V2.
+
+*** Mettre à jour le GANTT et les issues.
+
+** 1 séance semaine 22 :
+
+*** Prendre en compte les remarques.
+
+*** Rédiger la documentation technique et la documentation utilisateur V2.
+
+*** Rédiger le cahier de test V3.
+
+*** Mettre à jour le GANTT et les issues.
+
+** 1 séance semaine 23 :
+
+*** Préparer le bilan du projet, son chiffrage et son diaporama de présentation cf. TP Guidé semaine 20.
+
+*** Préparation de la livraison finale dans le dépôt GIT.
+
+2.2 **Contraintes organisationnelles pour le développement :**
+
+** Semaine 19 à 22 : Développer la V1 du logiciel.
+
+** Semaine 22 à 23 : Développer la V2 et V3 du logiciel.
+
+** Semaine 24 : oraux.
+
+** Semaine 24 : évaluation finale des livrables.
