@@ -49,7 +49,7 @@ Le **Chef d’Agence ** pourra désormais :
 
 ** Gérer (faire le « CRUD ») les employés (guichetier et chef d’agence). +
 
-image::Capture2.PNG[]
+image::Capture2.PNG[Uc v0]
 
 == Analyse des contraintes techniques & organisationnelles :
 
