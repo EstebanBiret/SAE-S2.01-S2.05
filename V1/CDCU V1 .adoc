@@ -30,7 +30,9 @@ Dans la version existante (V0), un ** chef d’agence ** peut :
 
 ** Rendre inactif un client.
 
-image::Capture.PNG[UC V0]
+image::Capture.PNG[]
+
+L'héritage entre le Chef d'Agence et le Guichetier signifie que le chef d'Agence peut effectuer les mêmes actions que le Guichetier, en plus de pouvoir rendre inactif un client.
 
 == Analyse des besoins de la Version 1 :
 
@@ -47,15 +49,18 @@ Le ** Guichetier ** pourra désormais :
 
 Le **Chef d’Agence ** pourra désormais :
 
-** Gérer (faire le « CRUD ») les employés (guichetier et chef d’agence). +
+** Gérer (faire le « CRUD ») les employés (guichetier et chef d’agence). Le CRUD est un acronyme qui signifie Create, Read, Update, Delete. Cela désigne les 4 opérations de base pour la persistance des données (en particulier le stockage d'informations en base de données). +
 
-image::Capture2.PNG[UC V1]
+image::Capture2.PNG[]
+
+L'héritage entre le Chef d'Agence et le Guichetier signifie que le chef d'Agence peut effectuer les mêmes actions que le Guichetier, en plus de pouvoir rendre inactif un client.
 
 == Analyse des contraintes techniques & organisationnelles :
 
 1. **Contraintes techniques :** +
 L'objectif technique de ce projet est de développer 3 versions du logiciel, répondant à plus de besoins les unes que les autres.
-Dans ce projet, les langages de programation sont JAVA (pour les fonctionnalités du logiciel) et Oracle SQL (pour la base de données de la banque).
+Dans ce projet, les langages de programation sont JAVA (pour les fonctionnalités du logiciel) et Oracle SQL (pour la base de données de la banque). +
+Pour l'organisation de l'équipe, nous avons utilisé discord pour communiquer entre nous et nous transmettre les fichiers.
 
 2.1 **Contraintes organisationnelles pour la gestion de projet:** +
 
