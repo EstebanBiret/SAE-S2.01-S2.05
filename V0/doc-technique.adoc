@@ -80,7 +80,13 @@ Lorsque un utilisateur clique sur un des clients de la liste, le bouton « compt
 Cette fonctionnalitée  permet à tous les utilisateurs de l'application de consulter les opérations des comptes des clients.
 Lorsqu'un utilisateur clique sur un des clients de la liste, le bouton « voir opérations » peut être cliqué.  Si le bouton est cliqué, le contrôleur comptesmanagementcontroller transfère les informations au contrôleur operationmanagement pour l’affichage de la fenêtre de gestion des opérations de chaque client. Si tous ce passe correctement une fenêtre avec toutes les opérations d'un compte du client choisie s'ouvre.
 
+=== Débiter un compte === 
+
+Cette fonctionnalitée  permet à tous les utilisateurs de l'application de consulter les opérations des comptes des clients.
+Lorsqu'un utilisateur clique sur un des clients de la liste, le bouton « voir opérations » peut être cliqué.
+
 === Rendre inactif un client : === 
 
 Cette fonctionnalitée  permet seulement au chef d'agence de l'application de rendre inactif un client.
 Lorsque un utilisateur clique sur un des clients de la liste, le bouton « désactiver client » peut être cliqué. Si le bouton est cliqué, le contrôleur comptesmanagementcontroller transfère les informations nécessaire pour désactiver un client.
+
