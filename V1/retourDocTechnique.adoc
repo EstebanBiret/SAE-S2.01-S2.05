@@ -1,0 +1,48 @@
+= Documentations technique
+
+== Elle doit contenir
+
+- Page de garde
+- Sommaire
+-  Présentation de l'Application
+- Répartition des fonctionnalités par programmeur (Une section qui décrit le partage du travail)
+- Expliquer le diagramme de classe des données global (base de données), surtout les éléments particuliers (par exemple chef Agence, client inactif, …) qui servent et concernent le code développé.
+- architecture de l’application
+- Comment installer l’appli , la base pour un projet eclipse
+- comment lancer le jar
+=== architecture
+        ◦ Architecture générale (poste client, serveurs, …) et rôle de chaque élément
+        ◦ Ressources externes (.jar, …) utilisées et rôles
+        ◦ Structuration en packages de l’application documentée. Principes retenus pour cette structuration
+        ◦ Eléments essentiels à connaître, spécificités, … nécessaires à la mise en œuvre du développement. Cette partie peut être illustrée par un diagramme de séquence
+≡ fonctionnalités
+ Pour chaque fonctionnalité : en les expliquant
+        Dans chaque partie : qui est le développeur responsable    
+        ◦  Partie de use case réalisé - scénarios éventuels
+        ◦ Partie du diagramme de classes données nécessaires : en lecture, en mise à jour
+        ◦ Copies écrans principales de la fonctionnalité (ou renvoi vers doc utilisateur) + maquettes états imprimés (si concerné)
+        ◦ Classes impliquées dans chaque package
+        ◦  Extraits de code significatifs commentés si nécessaires pour des points particuliers et importants avec spéc. ddées
+        ◦ Eléments essentiels à connaître, spécificités, … nécessaires à la mise en œuvre du développement. Cette partie peut être illustrée par un diagramme de séquence
+
+
+
+
+== Votre dépôt
+ 
+-  Présentation de l'Application ok
+
+Comment on installe ?
+Comment on lance le jar ?
+- pas de répartition du travail. P 
+- architecture… présente mais à affiner en regardant les attendus
+
+
+La doc technique doit servir à pouvoir corriger et étendre l’application. Votre description ne corresponds pas aux besoins.
+ Donc pour chaque fonctionnalité qu’avez vous modifiée, introduit dans quel fichier ??? Ce n’est pas une doc utilisateur...
+
+ Votre description des fonctionnalités pas satisfaisante regarder dans la partie attendus ce que vous devez mettre
+
+=== Forme :
+ 
+ Toutes les figures doivent avoir un numéro et un titre et un commentaire.
