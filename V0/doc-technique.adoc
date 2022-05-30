@@ -15,7 +15,7 @@
 === Use Case global
 
 
-image:{sae2022-bank-banqueroute-4A-03-}/V0/Capture.PNG[]
+image:{sae2022-bank-banqueroute-4A-03-}V0/Capture.PNG[]
 
 L’application DailyBank et faite pour deux utilisateurs distincts : 
 
