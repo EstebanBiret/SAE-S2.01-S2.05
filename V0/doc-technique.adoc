@@ -15,7 +15,7 @@
 === Use Case global
 
 
-image:{V0}/Capture.PNG[]
+image:{sae2022-bank-banqueroute-4A-03-}/V0/Capture.PNG[]
 
 L’application DailyBank et faite pour deux utilisateurs distincts : 
 
@@ -50,7 +50,7 @@ Les packages :
         Classes permetant l'accès à la BD
 
     model.exception
-        Classes des exceptions *pour* la  BD, levées par les classes de model.orm
+        Classes des exceptions pour la  BD, levées par les classes de model.orm
 
 ==  3. Fonctionnalités de l’application
 
