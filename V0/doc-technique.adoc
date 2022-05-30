@@ -83,7 +83,7 @@ Lorsqu'un utilisateur clique sur un des clients de la liste, le bouton « voir o
 === Débiter un compte === 
 
 Cette fonctionnalitée  permet à tous les utilisateurs de l'application de consulter les opérations des comptes des clients.
-Lorsqu'un utilisateur clique sur un des clients de la liste, le bouton « voir opérations » peut être cliqué.
+Lorsqu'un utilisateur clique sur un des clients de la liste, le bouton « voir opérations » peut être cliqué. Si tous ce passe correctement une fenêtre avec toutes les opérations d'un compte du client choisie s'ouvre, il faut ensuite cliquer sur l'un des comptes puis le bouton
 
 === Rendre inactif un client : === 
 
