@@ -57,30 +57,30 @@ Les packages :
     
 === Création d’un nouveau client :  ===
 
-Cette fonctionnalités  permet à tous les utilisateurs de l'application de créer un nouveau client.
-Lorsque un utilisateur clique sur le bouton "nouveau client", sur le contrôleur clientsmanagementcontroller qui transfère les informations nécessaire au contrôleur clientsmanagement pour l’affichage de la fenêtre de création d’un client. Une fois fait, une fenêtre s'affiche ou toutes les informations du client d'avoient être valide pour que la création de celui-ci soit validé. Une fois les informations validé les information s'enregistre dans la base de données, les informations de ce nouveaux client son ensuite affiché dans le contrôleur clientsmanagementcontroller.
+Cette fonctionnalité permet à tous les utilisateurs de l'application de créer un nouveau client.
+Lorsque un utilisateur clique sur le bouton "nouveau client", le contrôleur clientsmanagementcontroller qui transfère les informations nécessaire au contrôleur clientsmanagement pour l’affichage de la fenêtre de création d’un client. Une fois fait, une fenêtre s'affiche où toutes les informations du client doivent être valide pour que la création de celui-ci soit validé. Une fois les informations validées les informations s'enregistre dans la base de données, les informations de ce nouveaux client son ensuite affichée dans le contrôleur clientsmanagementcontroller.
 
 === Modification d’un client :  ===
 
-Cette fonctionnalités  permet à tous les utilisateurs de l'application de modifier les informations d'un client présent dans la base de données.
-Lorsque un utilisateur clique sur le bouton "modifier", sur le contrôleur clientsmanagementcontroller qui transfère les informations nécessaire au contrôleur clientsmanagement pour l’affichage de la fenêtre de modification d’un client. Une fois fait, une fenêtre s'affiche ou toutes les informations du client apparaissent, chacune des ces informations peuvent être modifier si chacune d'entre elles sont valident. Une fois que les informations modifiées son validé les information s'actualise dans la base de données, les nouvelles informations du client son ensuite affiché dans le contrôleur clientsmanagementcontroller.
+Cette fonctionnalité permet à tous les utilisateurs de l'application de modifier les informations d'un client présent dans la base de données.
+Lorsqu'un utilisateur clique sur le bouton "modifier", le contrôleur clientsmanagementcontroller  transfère les informations nécessaire au contrôleur clientsmanagement pour l’affichage de la fenêtre de modification d’un client. Une fois fait, une fenêtre s'affiche ou toutes les informations du client apparaissent, chacune des ces informations peuvent être modifier si chacune d'entre elles sont valident. Une fois que les informations modifiées son validées les informations s'actualise dans la base de données, les nouvelles informations du client sont ensuite affichées dans le contrôleur clientsmanagementcontroller.
 
 === Consultation des clients : ===
-Cette fonctionnalités  permet à tous les utilisateurs de l'application de consulté la listes des clients.
-Lorsque un utilisateur clique sur le bouton "rechercher", sur le contrôleur clientsmanagementcontroller qui transfère les informations nécessaire à l’affichage des clients. Elle permet de consulter la liste des clients de l’Agence bancaire. 
+Cette fonctionnaliteé permet à tous les utilisateurs de l'application de consulté la listes des clients.
+Lorsque un utilisateur clique sur le bouton "rechercher", le contrôleur clientsmanagementcontroller qui transfère les informations nécessaire à l’affichage des clients. Elle permet de consulter la liste des clients de l’Agence bancaire. 
 
 === Consulter les comptes d’un client : ===
 
-Cette fonctionnalités  permet à tous les utilisateurs de l'application de consulter les comptes d'un client.
-Lorsque un utilisateur clique sur un des clients de la liste, le bouton « comptes client » peut être cliqué. Si le bouton est cliqué, le contrôleur comptesmanagementcontroller transfère les information au contrôleur comptesmanagement pour l’affichage de la fenêtre de gestion des comptes. Si tous ce passe correctement une fenêtre avec toutes les comptes du client choisi s'ouvre.
+Cette fonctionnalitée permet à tous les utilisateurs de l'application de consulter les comptes d'un client.
+Lorsque un utilisateur clique sur un des clients de la liste, le bouton « comptes client » peut être cliqué. Si le bouton est cliqué, le contrôleur comptesmanagementcontroller transfère les informations au contrôleur comptesmanagement pour l’affichage de la fenêtre de gestion des comptes. Si tous ce passe correctement une fenêtre avec toutes les informations comptes du client choisie s'ouvre.
 
 
 === Consulter les opérations des comptes des clients :  ===
 
-Cette fonctionnalités  permet à tous les utilisateurs de l'application de consulter les opérations des comptes des clients. Si le bouton est cliqué, le contrôleur comptesmanagementcontroller transfère les information au contrôleur comptesmanagement pour l’affichage de la fenêtre de gestion des comptes.
-Lorsque un utilisateur clique sur un des clients de la liste, le bouton « voir opérations »peut être cliqué.  Si le bouton est cliqué, le contrôleur comptesmanagementcontroller transfère les information au contrôleur operationmanagement pour l’affichage de la fenêtre de gestion des opération de chaque client. Si tous ce passe correctement une fenêtre avec toutes les opération d'un compte du client choisi s'ouvre.
+Cette fonctionnalitée  permet à tous les utilisateurs de l'application de consulter les opérations des comptes des clients.
+Lorsqu'un utilisateur clique sur un des clients de la liste, le bouton « voir opérations » peut être cliqué.  Si le bouton est cliqué, le contrôleur comptesmanagementcontroller transfère les informations au contrôleur operationmanagement pour l’affichage de la fenêtre de gestion des opérations de chaque client. Si tous ce passe correctement une fenêtre avec toutes les opérations d'un compte du client choisie s'ouvre.
 
 === Rendre inactif un client : === 
 
-Cette fonctionnalités  permet seulement au chef d'agence de l'application de rendre inactif un client.
+Cette fonctionnalitée  permet seulement au chef d'agence de l'application de rendre inactif un client.
 Lorsque un utilisateur clique sur un des clients de la liste, le bouton « désactiver client » peut être cliqué. Si le bouton est cliqué, le contrôleur comptesmanagementcontroller transfère les informations nécessaire pour désactiver un client.
