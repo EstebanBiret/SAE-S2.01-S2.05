@@ -32,7 +32,7 @@ L’application DailyBank et faite pour deux utilisateurs distincts :
 * Rendre inactif un client
 * Gérer le CRUD
 
-== 2. Structure du code
+== 2. Architecture
 
 Les packages :
 
@@ -40,22 +40,23 @@ Les packages :
         DailyBank : main() de départ
 
     application.control
-        Contrôleurs de dialogue et accès aux données : gestion des fonctions de l’application
+        Contrôleurs de dialogue et accès aux données : gestion des fonctionnalités de l’application
 
     application.view
-        Vues de l’application - fichiers fxml et contrôleurs associés - : gestion des vues uniquement : affichages, contrôle de saisies, …
+        Vues de l’application avec les fichiers fxml et controleur associé : gestion des vues uniquement : affichages, contrôle de saisies
 
     application.tools
-        Utilitaires pour application.view et application.control
+        Utilisé pour application.view et application.control
 
     model.data
-        Classes java mappant les table de la BD. Une table ⇒ 1 classe. On peut en ajouter (classes pour jointures, …)
+        Classes java pour les table de la BD
 
     model.orm
-        Classes d’accès physiques à la BD. Une table ⇒ 1 classe offrant différentes méthodes pour accéder à la table : select, insert, delete, update, appel de procédure stockée (elles sont données). On peut en ajouter.
+        Classes permetant l'accès à la BD
 
     model.exception
-        Classes des exceptions spécifiques d’accès à la BD, levées par les classes de model.orm
+        Classes des exceptions pour la  BD, levées par les classes de model.orm
+
 
 ==  3. Fonctionnalités de l’application
 
@@ -85,6 +86,11 @@ Lorsque un utilisateur clique sur un des clients de la liste, le bouton « compt
 Cette fonctionnalitée  permet à tous les utilisateurs de l'application de consulter les opérations des comptes des clients.
 Lorsqu'un utilisateur clique sur un des clients de la liste, le bouton « voir opérations » peut être cliqué.  Si le bouton est cliqué, le contrôleur comptesmanagementcontroller transfère les informations au contrôleur operationmanagement pour l’affichage de la fenêtre de gestion des opérations de chaque client. Si tous ce passe correctement une fenêtre avec toutes les opérations d'un compte du client choisie s'ouvre.
 
+=== Débiter un compte === 
+
+Cette fonctionnalitée  permet à tous les utilisateurs de l'application de consulter les opérations des comptes des clients.
+Lorsqu'un utilisateur clique sur un des clients de la liste, le bouton « voir opérations » peut être cliqué. Si tous ce passe correctement une fenêtre avec toutes les opérations d'un compte du client choisie s'ouvre, il faut ensuite cliquer sur l'un des comptes, puis sur le bouton "voir opérations" ensuite une fenêtre s'ouvre et enfin il suffit de cliquer sur le bouton "Enregistrer débit" chaque opération est enregistrer.
+
 === Rendre inactif un client : === 
 
 Cette fonctionnalitée  permet seulement au chef d'agence de l'application de rendre inactif un client.
@@ -92,17 +98,22 @@ Lorsque un utilisateur clique sur un des clients de la liste, le bouton « désa
 
 === Débiter/Créditer un compte : === 
 
-à completer
+Cette fonctionnalitée  permet à tous les utilisateurs de l'application de consulter les opérations des comptes des clients.
+Lorsqu'un utilisateur clique sur un des clients de la liste, le bouton « voir opérations » peut être cliqué. Si tous ce passe correctement une fenêtre avec toutes les opérations d'un compte du client choisie s'ouvre, il faut ensuite cliquer sur l'un des comptes, puis sur le bouton "voir opérations" ensuite une fenêtre s'ouvre et enfin il suffit de cliquer sur le bouton "Enregistrer débit" ou "Enregistrer débit" chaque opération est enregistrer.
 
 === Clôturer un compte : === 
 
-à completer
+Cette fonctionnalitée  permet à tous les utilisateurs de l'application de clôturer un compte.
+à implémenter :
 
 === Gérer le CRUD === 
 
-à completer
+Cette fonctionnalitée  permet seulement au chef d'agence de l'application de gérer un employer (créer, lire, mettre à jour, supprimer).
+à implémenter :
+
 
 === Effectuer un virement de compte à compte === 
 
-à completer
+Cette fonctionnalitée  permet à tous les utilisateurs de l'application d'effectuer un virement de compte à compte
+à implémenter :
 
