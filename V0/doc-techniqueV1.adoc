@@ -114,6 +114,6 @@ Cette fonctionnalitée  permet seulement au chef d'agence de l'application de g�
 
 === Effectuer un virement de compte à compte === 
 
-Cette fonctionnalitée  permet à tous les utilisateurs de l'application d'effectuer un virement de compte à compte
+Cette fonctionnalitée  permet à tous les utilisateurs de l'application d'effectuer un virement de compte à compte.
 à implémenter :
 
