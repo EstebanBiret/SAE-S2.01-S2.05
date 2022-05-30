@@ -17,6 +17,21 @@
 
 image::Capture2.png[]
 
+L’application DailyBank et faite pour deux utilisateurs distincts : 
+
+** Les guichetiers : Ils possèdent les droits leur permettant de gérer des clients ainsi comptes que des comptes de l'agence. Mais aussi :
+* Clôturer un compte
+* Effectuer un virement de compte à compte
+* Modifier les informations des clients
+* Créer un nouveau client
+* Consulter un compte
+* Débiter/Créditer un compte
+* Débiter un compte
+
+** Les Chefs d’Agence : Quant à lui me Chef d'Agence peut faire les mêmes choses que le guichetier mais il peut en plus :
+* Rendre inactif un client
+* Gérer le CRUD
+
 == 2. Structure du code
 
 Les packages :
@@ -42,64 +57,52 @@ Les packages :
     model.exception
         Classes des exceptions spécifiques d’accès à la BD, levées par les classes de model.orm
 
-== 3. Le paradigme MVC
+==  3. Fonctionnalités de l’application
 
-Si on prend le modèle MVC pour l’application entière, on a :
+    
+=== Création d’un nouveau client :  ===
 
-    Modèle :
-        - model.orm : le "vrai" modèle
-        - model.data : classes nécessaires pour transporter les données
+Cette fonctionnalité permet à tous les utilisateurs de l'application de créer un nouveau client.
+Lorsque un utilisateur clique sur le bouton "nouveau client", le contrôleur clientsmanagementcontroller qui transfère les informations nécessaire au contrôleur clientsmanagement pour l’affichage de la fenêtre de création d’un client. Une fois fait, une fenêtre s'affiche où toutes les informations du client doivent être valide pour que la création de celui-ci soit validé. Une fois les informations validées les informations s'enregistre dans la base de données, les informations de ce nouveaux client son ensuite affichée dans le contrôleur clientsmanagementcontroller.
 
-    Vue :
-        application.view : toutes les parties visibles de l’utilisateur, sans accès aux données, sans accès les unes aux autres
+=== Modification d’un client :  ===
 
-    Contrôleur :
-        - application.control : classes de contrôle du "déroulement"
-            Routage entre fenêtres
-            Accès aux données lorsque de besoin
-        - application avec la classe DailyBank : main() de lancement de l’application. Et encore, elle ne fait que faire un runApp() sur un contrôleur.
+Cette fonctionnalité permet à tous les utilisateurs de l'application de modifier les informations d'un client présent dans la base de données.
+Lorsqu'un utilisateur clique sur le bouton "modifier", le contrôleur clientsmanagementcontroller  transfère les informations nécessaire au contrôleur clientsmanagement pour l’affichage de la fenêtre de modification d’un client. Une fois fait, une fenêtre s'affiche ou toutes les informations du client apparaissent, chacune des ces informations peuvent être modifier si chacune d'entre elles sont valident. Une fois que les informations modifiées son validées les informations s'actualise dans la base de données, les nouvelles informations du client sont ensuite affichées dans le contrôleur clientsmanagementcontroller.
 
-Le reste est juste de "l’aide" :
-    - model.exception
-    - application.tools
+=== Consultation des clients : ===
+Cette fonctionnaliteé permet à tous les utilisateurs de l'application de consulté la listes des clients.
+Lorsque un utilisateur clique sur le bouton "rechercher", le contrôleur clientsmanagementcontroller qui transfère les informations nécessaire à l’affichage des clients. Elle permet de consulter la liste des clients de l’Agence bancaire. 
+
+=== Consulter les comptes d’un client : ===
+
+Cette fonctionnalitée permet à tous les utilisateurs de l'application de consulter les comptes d'un client.
+Lorsque un utilisateur clique sur un des clients de la liste, le bouton « comptes client » peut être cliqué. Si le bouton est cliqué, le contrôleur comptesmanagementcontroller transfère les informations au contrôleur comptesmanagement pour l’affichage de la fenêtre de gestion des comptes. Si tous ce passe correctement une fenêtre avec toutes les informations comptes du client choisie s'ouvre.
 
 
+=== Consulter les opérations des comptes des clients :  ===
 
-==  4. Le rôle des classes
+Cette fonctionnalitée  permet à tous les utilisateurs de l'application de consulter les opérations des comptes des clients.
+Lorsqu'un utilisateur clique sur un des clients de la liste, le bouton « voir opérations » peut être cliqué.  Si le bouton est cliqué, le contrôleur comptesmanagementcontroller transfère les informations au contrôleur operationmanagement pour l’affichage de la fenêtre de gestion des opérations de chaque client. Si tous ce passe correctement une fenêtre avec toutes les opérations d'un compte du client choisie s'ouvre.
 
-    application
-        - DailyBank : main() de l’application
-        - DailyBankState : classe de description du contexte courant de l’application : qui est connecté ? est-il chef d’agence ? à quelle agence bancaire appartient-il ?
+=== Rendre inactif un client : === 
 
-    application.control
-        - Une classe par fenêtre dite contrôleur de dialogue. Exemple LoginDialog
-        - Rôles de chaque classe :
-            - A la création : i) construit le Stage java FX de la fenêtre, ii) charge le fichier fxml de la vue et son contrôleur
-            - Offre une méthode de démarrage du Dialogue, du type doNomClasseControlDialog(…). Exemple doLoginDialog()
-            - Offre des méthodes d’accès aux données, disponibles pour son contrôleur de vue
-            - Offre des méthodes d’activation d’autres fenêtres, disponibles pour son contrôleur de vue
+Cette fonctionnalitée  permet seulement au chef d'agence de l'application de rendre inactif un client.
+Lorsque un utilisateur clique sur un des clients de la liste, le bouton « désactiver client » peut être cliqué. Si le bouton est cliqué, le contrôleur comptesmanagementcontroller transfère les informations nécessaire pour désactiver un client.
 
-    application.view
-        - Une classe par fenêtre dite contrôleur de vue ET un fichier fxml associé. Exemple LoginDialogController et logindialog.fxml
-        - Un objet d’une telle classe ne connaît de l’application que son contrôleur de dialogue (de application.control)
-        - Rôles de chaque classe :
-            - Offre une méthode initContext(…) pour être initialisée. Appelée par le contrôleur de dialogue
-            - Offre une méthode displayDialog(…) pour afficher la fenêtre. Appelée par le contrôleur de dialogue
-            - Gère toutes les réactions aux interactions : saisies, boutons, …
-            - Met à jour l’interface lorsque de besoin : griser des boutons, remplir des champs, …
-            - Effectue tous les contrôles de surface au niveau de la saisie : valeurs remplies, nombres < 0, …
-            - Appelle son contrôleur de vue si besoin d’accéder à des données
-            - Appelle son contrôleur de vue si besoin de lancer une autre fonction (fenêtre) de l’application
+=== Débiter/Créditer un compte : === 
 
-    model.data
-        - Classes java mappant les table de la BD.
-            - Une table ⇒ 1 classe. On peut en ajouter (classes pour jointures, …)
-        - Servent à échanger les donnes entre model.orm et application.control
-        - Ces classes ne définissent aucune méthode qui "fait quelque chose" (calcul, …). Les attributs sont public et une seule méthode toString (). Chaque attribut est un champ de la table.
-        - Ces classes ne contiennent que les champs de la BD que l’on souhaite remonter vers l’application.
+à completer
 
-    model.orm
-        - Classes d’accès physiques à la BD.
-            - Une table ⇒ 1 classe offrant différentes méthodes pour accéder à la table : select, insert, delete, update, appel de procédure stockée (elles sont données). On peut en ajouter.
-        - Chaque classe : effectue une requête SQL, presque la requête qu’on ferait au clavier envoyée au serveur sous forme de String. Ensuite elle emballe le résultat en java (objets de model.data, ArrayList, …).
+=== Clôturer un compte : === 
+
+à completer
+
+=== Gérer le CRUD === 
+
+à completer
+
+=== Effectuer un virement de compte à compte === 
+
+à completer
 
