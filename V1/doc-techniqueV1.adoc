@@ -86,14 +86,16 @@ Cette fonctionnalité permet à tous les utilisateurs de l'application de modifi
 Lorsqu'un utilisateur clique sur le bouton "modifier", le contrôleur clientsmanagementcontroller  transfère les informations nécessaire au contrôleur clientsmanagement pour l’affichage de la fenêtre de modification d’un client. Une fois fait, une fenêtre s'affiche ou toutes les informations du client apparaissent, chacune des ces informations peuvent être modifier si chacune d'entre elles sont valident. Une fois que les informations modifiées son validées les informations s'actualise dans la base de données, les nouvelles informations du client sont ensuite affichées dans le contrôleur clientsmanagementcontroller.
 
 === Consultation des clients : ===
+
 Cette fonctionnaliteé permet à tous les utilisateurs de l'application de consulté la listes des clients.
 Lorsque un utilisateur clique sur le bouton "rechercher", le contrôleur clientsmanagementcontroller qui transfère les informations nécessaire à l’affichage des clients. Elle permet de consulter la liste des clients de l’Agence bancaire. 
 
 === Consulter les comptes d’un client : ===
-
+image::consulter1.PNG[]
+image::consulter2.PNG[]
 Cette fonctionnalitée permet à tous les utilisateurs de l'application de consulter les comptes d'un client.
-Lorsque un utilisateur clique sur un des clients de la liste, le bouton « comptes client » peut être cliqué. Si le bouton est cliqué, le contrôleur comptesmanagementcontroller transfère les informations au contrôleur comptesmanagement pour l’affichage de la fenêtre de gestion des comptes. Si tous ce passe correctement une fenêtre avec toutes les informations comptes du client choisie s'ouvre.
-
+Lorsque un utilisateur clique sur un des clients de la liste, le bouton « comptes client » peut être cliqué. Si le bouton est cliqué, le contrôleur comptesmanagementcontroller du package application.view transfère les informations au contrôleur comptesmanagement application.control pour l’affichage de la fenêtre de gestion des comptes. Si tous ce passe correctement une fenêtre avec toutes les informations comptes du client choisie s'ouvre.
+image::screen1.PNG[]
 
 === Consulter les opérations des comptes des clients :  ===
 
