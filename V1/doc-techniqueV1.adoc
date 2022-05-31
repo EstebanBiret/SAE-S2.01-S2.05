@@ -163,6 +163,4 @@ image::virement1.PNG[]
 Cette fonctionnalitée  permet à tous les utilisateurs de l'application d'effectuer un virement de compte à compte. Le bouton pour allez à la fenêtre de virement n'est pas encore présent, il sera mis dans le rectangle rouge présent sur la capture d'écran. à implémenter :
 
 image::virement2.PNG[]
-dans cette fenêtre il y aura un bouton virement compte à compte qui amènera vers une nouvelle fenêtre
-
 image::virement3.PNG[]
