@@ -145,7 +145,7 @@ image::cloture1.PNG[]
 Cette fonctionnalitée  permet à tous les utilisateurs de l'application de clôturer un compte.
 à implémenter :
 
-image::cloture2.png[]
+image::cloture2.PNG[]
 
 === Gérer le CRUD === 
 image::crud.PNG[]
@@ -155,6 +155,7 @@ Cette fonctionnalitée  permet seulement au chef d'agence de l'application de g�
 
 image::crud2.PNG[]
 image::crud3.png[]
+
 
 === Effectuer un virement de compte à compte === 
 image::virement.PNG[]
