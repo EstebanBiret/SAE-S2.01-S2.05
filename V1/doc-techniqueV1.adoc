@@ -34,7 +34,17 @@ L’application DailyBank et faite pour deux utilisateurs distincts :
 
 == 2. Architecture
 
-Les packages :
+== Installation : ===
+
+    Pour l'installation de l'application DailyBank, ont peut l'installer sur github dans les différends dépôt en fonction de nôtre avancement. 
+
+== Le .jar : ===
+
+    Le .jar est trouvable dans le dossier de l'application DailyBank
+
+== Répartition du travail : ===
+
+=== Les packages : ===
 
     application
         DailyBank : main() de départ
