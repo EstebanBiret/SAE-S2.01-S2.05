@@ -117,7 +117,7 @@ Cette fonctionnalitée  permet à tous les utilisateurs de l'application de cons
 Lorsqu'un utilisateur clique sur un des clients de la liste, le bouton « voir opérations » peut être cliqué.  Si le bouton est cliqué, le contrôleur comptesmanagementcontroller du package application.view transfère les informations au contrôleur operationmanagement du package application.control pour l’affichage de la fenêtre de gestion des opérations de chaque client. Si tous ce passe correctement une fenêtre avec toutes les opérations d'un compte du client choisie s'ouvre.
 
 image::operation2.PNG[]
-=== Débiter un compte === 
+=== Débiter un compte : === 
 image::debit.PNG[]
 image::debit1.PNG[]
 Cette fonctionnalitée  permet à tous les utilisateurs de l'application de consulter les opérations des comptes des clients.
@@ -147,7 +147,7 @@ Cette fonctionnalitée  permet à tous les utilisateurs de l'application de clô
 
 image::cloture2.PNG[]
 
-=== Gérer le CRUD === 
+=== Gérer le CRUD : === 
 image::crud.PNG[]
 image::crud1.PNG[]
 Cette fonctionnalitée  permet seulement au chef d'agence de l'application de gérer un employer (créer, lire, mettre à jour, supprimer).
@@ -157,7 +157,7 @@ image::crud2.PNG[]
 image::crud3.png[]
 
 
-=== Effectuer un virement de compte à compte === 
+=== Effectuer un virement de compte à compte : === 
 image::virement.PNG[]
 image::virement1.PNG[]
 Cette fonctionnalitée  permet à tous les utilisateurs de l'application d'effectuer un virement de compte à compte.
