@@ -118,33 +118,49 @@ Lorsqu'un utilisateur clique sur un des clients de la liste, le bouton « voir o
 
 image::operation2.PNG[]
 === Débiter un compte === 
-
+image::debit.PNG[]
+image::debit1.PNG[]
 Cette fonctionnalitée  permet à tous les utilisateurs de l'application de consulter les opérations des comptes des clients.
 Lorsqu'un utilisateur clique sur un des clients de la liste, le bouton « voir opérations » peut être cliqué. Si tous ce passe correctement une fenêtre avec toutes les opérations d'un compte du client choisie s'ouvre, il faut ensuite cliquer sur l'un des comptes, puis sur le bouton "voir opérations" ensuite une fenêtre s'ouvre et enfin il suffit de cliquer sur le bouton "Enregistrer débit" chaque opération est enregistrer.
 
+image::debit2.PNG[]
 === Rendre inactif un client : === 
-
+image::inactif.PNG[]
+image::inactif1.PNG[]
 Cette fonctionnalitée  permet seulement au chef d'agence de l'application de rendre inactif un client.
-Lorsque un utilisateur clique sur un des clients de la liste, le bouton « désactiver client » peut être cliqué. Si le bouton est cliqué, le contrôleur comptesmanagementcontroller transfère les informations nécessaire pour désactiver un client.
+Lorsque le chef d'agence clique sur un des clients de la liste, le bouton « désactiver client » peut être cliqué. Si le bouton est cliqué, le contrôleur comptesmanagementcontroller du package application.view  transfère les informations nécessaire pour désactiver le client.
+
+image::inactif2.PNG[]
 
 === Débiter/Créditer un compte : === 
-
+image::debit.PNG[]
+image::credit.png[]
 Cette fonctionnalitée  permet à tous les utilisateurs de l'application de consulter les opérations des comptes des clients.
 Lorsqu'un utilisateur clique sur un des clients de la liste, le bouton « voir opérations » peut être cliqué. Si tous ce passe correctement une fenêtre avec toutes les opérations d'un compte du client choisie s'ouvre, il faut ensuite cliquer sur l'un des comptes, puis sur le bouton "voir opérations" ensuite une fenêtre s'ouvre et enfin il suffit de cliquer sur le bouton "Enregistrer débit" ou "Enregistrer débit" chaque opération est enregistrer.
 
+image::credit2.png[]
 === Clôturer un compte : === 
-
+image::cloture.PNG[]
+image::cloture1.PNG[]
 Cette fonctionnalitée  permet à tous les utilisateurs de l'application de clôturer un compte.
 à implémenter :
 
-=== Gérer le CRUD === 
+image::cloture2.png[]
 
+=== Gérer le CRUD === 
+image::crud.PNG[]
+image::crud1.PNG[]
 Cette fonctionnalitée  permet seulement au chef d'agence de l'application de gérer un employer (créer, lire, mettre à jour, supprimer).
 à implémenter :
 
+image::crud2.PNG[]
+image::crud3.png[]
 
 === Effectuer un virement de compte à compte === 
-
+image::virement.PNG[]
+image::virement1.PNG[]
 Cette fonctionnalitée  permet à tous les utilisateurs de l'application d'effectuer un virement de compte à compte.
 à implémenter :
+
+image::virement2.PNG[]
 
