@@ -60,15 +60,30 @@ Puis cliquer sur "Rechercher" pour afficher les différents comptes clients de l
 
 image::Gestion des clients2.PNG[]
 
-Puis sélectionnez le compte dont vous voulez modifier les informations et cliquer ensuite sur "Modifier client".
+Puis sélectionnez le compte dont vous voulez modifier les informations et cliquer ensuite sur "Modifier client". +
 Vous atterrirez sur cette page là dans laquelle vous pourrez modifier les informations du clients comme vous le souhaitez.
 
 image::Modifier information client.PNG[]
 
 === Créer un nouveau client :  ===
 
-Cette fonctionnalité permet à tous les utilisateurs de l'application de modifier les informations d'un client présent dans la base de données.
-Lorsqu'un utilisateur clique sur le bouton "modifier", le contrôleur clientsmanagementcontroller  transfère les informations nécessaires au contrôleur clientsmanagement pour l’affichage de la fenêtre de modification d’un client. Une fois fait, une fenêtre s'affiche ou toutes les informations du client apparaissent, chacune des ces informations peuvent être modifier si chacune d'entre elles sont valides. Une fois que les informations modifiées son validées les informations s'actualise dans la base de données, les nouvelles informations du client sont ensuite affichées dans le contrôleur clientsmanagementcontroller.
+Afin de créer un nouveau client nous allons revenir sur la page de gestion des clients vide :
+
+image::Gestion des clients.PNG[]
+
+Puis nous allons cliquer sur le bouton "nouveau client" en bas à droite de la page. +
+Nous atterissons donc sur cette page :
+
+image::Nouveau client.PNG[]
+
+Vous n'avez plus qu'à remplir les informations concernant le client puis à cliquer sur le bouton "ajouter" :
+
+image::Nouveau client_hugo.PNG[]
+
+Retournez sur la page de gestion des comptes puis en cliquant sur "rechercher" vous verrez le nouveau compte s'afficher en bas de la page.
+
+image::Gestion des clients3.PNG[]
+
 
 === Consulter un compte : ===
 Cette fonctionnaliteé permet à tous les utilisateurs de l'application de consulté la listes des clients.
