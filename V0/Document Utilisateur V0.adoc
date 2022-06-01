@@ -91,14 +91,27 @@ Afin de consulter un compte nous allons rester sur cette page puis selectionner 
 
 image::Gestion des clients2.PNG[]
 
-Vous atterirez sur une page qui nous donnera toutes les informations sur les différentes comptes du client dans cette agence.
+Vous atterrirez sur une page qui nous donnera toutes les informations sur les différentes comptes du client dans cette agence.
 
 image::Consulter un compte.PNG[]
 
 === Débiter un compte : ===
 
-Cette fonctionnalité permet à tous les utilisateurs de l'application de consulter les comptes d'un client.
-Lorsque un utilisateur clique sur un des clients de la liste, le bouton « comptes client » peut être cliqué. Si le bouton est cliqué, le contrôleur comptesmanagementcontroller transfère les informations au contrôleur comptesmanagement pour l’affichage de la fenêtre de gestion des comptes. Si tout se passe correctement, une fenêtre avec toutes les informations comptes du client choisi s'ouvre.
+Pour débiter un compte nous restons sur la page de consultation d'un compte client :
+
+image::Consulter un compte.PNG[]
+
+puis on sélectionne un compte et on clique sur le bouton "voir opérations" qui nous amène ici :
+
+image::Gestion des opérations.PNG[]
+
+Puis nous cliquons sur "Enregistrer débit" et nous rentrons la somme et la manière dont nous débiton l'argent du compte :
+
+image::Effectuer un debit.PNG[]
+
+Puis nous revenon sur la fenètre des informations du compte du client et nous remarquons que en effet l'argent a été débité du compte.
+
+image::Débit de 50.PNG[]
 
 
 ==  4. Utilisation de l'application : chef d'agence
