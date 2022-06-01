@@ -116,3 +116,17 @@ image::Débit de 50.PNG[]
 
 ==  4. Utilisation de l'application : chef d'agence
 
+=== Rendre inactif un client :  ===
+
+Pour ceci nous allons nous connecter sur un nouveau compte de chef d'agence cette fois ci :
+
+image::page d'accueil chef d'agence.PNG[]
+
+Puis nous allons sélectionner un compte client et nous allons sélectionner ses informations clients. +
+Nous pouvons voir que en bas nous pouvons maintenant rendre un client inactif :
+
+image::Client inactif.PNG[]
+
+On clique sur le bouton "Modifier" et le compte deviens inactif et les guichetier n'ont plus accès à se compte.
+
+
