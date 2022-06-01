@@ -1,0 +1,66 @@
+:toc:
+= Cahier de recette V0
+
+
+BIRET-TOSCANO Esteban +
+FALETTI Léo +
+VACQUIER Hugo +
+BALMES Bastien +
+Equipe : 4A-03 +
+v1.0, 2022-01-06 +
+
+== Présentation du sujet :
+1. **Contexte :** +
+La banque DailyBank souhaite développer une application JAVA-Oracle de gestion des comptes clients pour remplacer plusieurs outils obsolètes. Ce développement s’inscrit dans le cadre de la restructuration de ses services bancaires et l’application sera déployée dans les 100 agences que compte son réseau. Nous travaillerons à partir d’une application existante « Daily Bank » qu’il faudra adapter aux nouveaux besoins de la banque.
+
+2. **Objectifs :** +
+L’application doit permettre de gérer des comptes bancaires de dépôt pour des clients préalablement créés. Elle devra permettre de débiter, créditer un compte soit par virement c’est à dire un échange d’argent entre deux comptes distincts mais domiciliés dans le réseau bancaire, soit par une personne physique se présentant devant un guichet. +
+
+== Cahier de test V0 :
+
+|===
+| Id Test | Nom test | Conditions de satisfaction | Préconditions
+
+| 01
+| Se connecter (page d'accueil).
+| Connexion possible à la base de données, l'identifiant et le mot de passe doivent correspondre à un employé existant.
+| Après le lancement de l'application, avoir cliqué sur le bouton 'Se connecter'.
+
+| 02
+| Quitter l'application.
+| Apparition de la fenêtre pop-up "Etes vous sur de vouloir quitter l'application ?".
+|L'application doit-être au préalable lancée (cela tombe sous le sens). 
+
+| 03
+| Créer un nouveau client. 
+| Le format de l'adresse mail doit être valide, les champs doivent être tous remplis (sauf l'adresse). Pour le rendre inactif, vous devez être connecté en tant que chef d'agence.
+| Etre connecté en tant qu'employé.
+
+
+| 04
+| Modifier les informations d'un client.
+| Le format de l'adresse mail doit être valide, les champs doivent être tous remplis (sauf l'adresse). Pour le rendre inactif, vous devez être connecté en tant que chef d'agence.
+| Etre connecté en tant qu'employé, avoir selectionné un client.
+
+| 05
+| Rendre inactif un client.
+| Le client est inactif, il ne peut plus rien faire (comme s'il était supprimé, mais reste tout de même visible).
+| Etre connecté en tant que chef d'agence, avoir sélectionné un client existant. Il y a 2 moyens possible : cliquez sur "Modifier client" et sélectionnez "inactif" ou cliquez sur "Désactiver client".
+
+| 06
+| Consulter un compte.
+| Aucune conditions.
+| Avoir sélectionné un compte et cliqué sur le bouton "Voir opérations".
+
+| 07
+| Débiter un compte.
+| Le montant doit être positif, et ne doit pas dépasser le solde autorisé.
+| Le compte est séléctionné .
+
+
+| 08
+| Débiter un compte (lorsque le découvert ne le permet pas).
+| Un message d'erreur rouge s'affiche, nous indiquant que le découvert du compte nous empêche d'effectuer l'opération. Nous devons indiquer un montant valide pour valider l'opération. 
+| Le compte est séléctionné.
+|===
+
