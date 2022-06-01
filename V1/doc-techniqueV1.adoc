@@ -124,6 +124,7 @@ Lorsqu'un utilisateur clique sur un des clients de la liste, le bouton « voir o
 
 image::operation2.PNG[]
 _Interface de consultation des opérations d'un client._
+
 === Débiter un compte : === 
 image::debit.PNG[]
 image::debit1.PNG[]
