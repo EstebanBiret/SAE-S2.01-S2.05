@@ -96,7 +96,7 @@ Cette fonctionnalité permet à tous les utilisateurs de l'application de modifi
 Lorsqu'un utilisateur clique sur le bouton "modifier", le contrôleur clientsmanagementcontroller du package application.control transfère les informations nécessaires au contrôleur clientsmanagement du package application.control pour l’affichage de la fenêtre de modification d’un client. Une fois fait, une fenêtre s'affiche où toutes les informations du client apparaissent, chacune des ces informations peuvent être modifiées si chacune d'entre elles sont valides. Une fois que les informations modifiées sont validées les informations s'actualisent dans la base de données, les nouvelles informations du client sont ensuite affichées dans le contrôleur clientsmanagementcontroller.
 
 image::modifier2.PNG[]
-
+_Interface de modification d'un client._
 
 === Consultation des clients : ===
 image::creer.PNG[]
@@ -105,6 +105,7 @@ Cette fonctionnalité permet à tous les utilisateurs de l'application de consul
 Lorsque un utilisateur clique sur le bouton "rechercher", le contrôleur clientsmanagementcontroller du package application.control transfère les informations nécessaires à l’affichage des clients. Elle permet de consulter la liste des clients de l’Agence bancaire. 
 
 image::rechercher.PNG[]
+_Interface de recherche et de consultation des clients._
 
 === Consulter les comptes d’un client : ===
 image::consulter1.PNG[]
@@ -113,6 +114,7 @@ Cette fonctionnalité permet à tous les utilisateurs de l'application de consul
 Lorsque un utilisateur clique sur un des clients de la liste, le bouton « comptes client » peut être cliqué. Si le bouton est cliqué, le contrôleur comptesmanagementcontroller du package application.view transfère les informations au contrôleur comptesmanagement du package application.control pour l’affichage de la fenêtre de gestion des comptes. Si tout se passe correctement une fenêtre avec toutes les informations comptes du client choisi s'ouvre.
 
 image::screen1.PNG[]
+_Interface de consultation des comptes d'un client._
 
 === Consulter les opérations des comptes des clients :  ===
 image::operation.PNG[]
