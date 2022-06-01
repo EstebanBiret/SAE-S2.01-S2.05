@@ -1,4 +1,5 @@
-Documentation User V1
+= Documentation User V1
+:toc:
 
 == Taches à faires
 * Créditer/débiter un compte (java et BD avec procédure stockée)
