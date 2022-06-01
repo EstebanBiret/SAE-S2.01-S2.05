@@ -86,6 +86,7 @@ Cette fonctionnalité permet à tous les utilisateurs de l'application de créer
 Lorsque un utilisateur clique sur le bouton "nouveau client", le contrôleur clientsmanagementcontroller du package application.control transfère les informations nécessaires au contrôleur clientsmanagement du package application.control pour l’affichage de la fenêtre de création d’un client. Une fois fait, une fenêtre s'affiche avec toutes les informations du client. Ses informations doivent être valide pour que la création de celui-ci soit validé. Une fois les informations validées les informations s'enregistrent dans la base de données, les informations de ce nouveau client son ensuite affichées dans le contrôleur clientsmanagementcontroller.
 
 image::creer3.PNG[]
+_Interface de création d'un client._
 
 === Modification d’un client :  ===
 
