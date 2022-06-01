@@ -28,7 +28,7 @@ L’application DailyBank et faite pour deux utilisateurs distincts :
 * Débiter/Créditer un compte
 * Débiter un compte
 
-** Les Chefs d’Agence : Quant à lui me Chef d'Agence peut faire les mêmes choses que le guichetier mais il peut en plus :
+** Les Chefs d’Agence : Un Chef d'Agence peut faire les mêmes choses que le guichetier, avec en plus :
 * Rendre inactif un client
 * Gérer le CRUD
 
@@ -36,13 +36,13 @@ L’application DailyBank et faite pour deux utilisateurs distincts :
 
 === Installation : ===
 
-    Pour l'installation de l'application DailyBank, ont peut l'installer sur github dans les différends dépôts.
+    Pour l'installation de l'application DailyBank, on peut l'installer sur github dans les différends dépôts.
     
 image::Capture6.PNG[]
 
 === Le .jar : ===
 
-    Le .jar est trouvable dans le dossier de l'application DailyBank
+    Le .jar est trouvable dans le dossier de l'application DailyBank.
 
 === Répartition du travail : ===
 image::Capture5.PNG[]
