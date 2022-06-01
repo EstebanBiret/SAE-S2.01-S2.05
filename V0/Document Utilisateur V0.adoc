@@ -40,18 +40,30 @@ Une fois sur cette page vous n'avez que deux options :  +
 
 === Connexion au compte guichetier :  ===
 
-Une fois cliquer sur le bouton "connexion" vous attérirez sur cette page dans laquelle vous devrez entre votre identifiant ainsi que votre mot de passe.
+Une fois cliquer sur le bouton "connexion" vous atterrirez sur cette page dans laquelle vous devrez entrer votre identifiant ainsi que votre mot de passe.
 
 image::Connexion guichetier.PNG[]
 
-Une fois connecter nous retombons sur la page d'accueil mais cette fois nous pouvons voir les informations sur l'employé et son agence :
+Une fois connecté nous retombons sur la page d'accueil mais cette fois nous pouvons voir les informations sur l'employé et son agence :
 
 image::page d'accueil Guichetier.PNG[]
+
+Vous avez maintenant accès aux fonctionnalités d'un guichetier.
     
 === Modifier informations client :  ===
 
-Cette fonctionnalité permet à tous les utilisateurs de l'application de créer un nouveau client.
-Lorsque un utilisateur clique sur le bouton "nouveau client", le contrôleur clientsmanagementcontroller qui transfère les informations nécessaires au contrôleur clientsmanagement pour l’affichage de la fenêtre de création d’un client. Une fois fait, une fenêtre s'affiche où toutes les informations du client doivent être valide pour que la création de celui-ci soit validé. Une fois les informations validées les informations s'enregistre dans la base de données, les informations de ce nouveaux client son ensuite affichée dans le contrôleur clientsmanagementcontroller.
+Maintenant vous pouvez cliquer sur le bouton "Gestion" dans la barre de menu en haut et vous pourrez cliquer sur le bouton "client" qui vous amènera sur cette page :
+
+image::Gestion des clients.PNG[]
+
+Puis cliquer sur "Rechercher" pour afficher les différents comptes clients de l'agence comme ceci :
+
+image::Gestion des clients2.PNG[]
+
+Puis sélectionnez le compte dont vous voulez modifier les informations et cliquer ensuite sur "Modifier client".
+Vous atterrirez sur cette page là dans laquelle vous pourrez modifier les informations du clients comme vous le souhaitez.
+
+image::Modifier information client.PNG[]
 
 === Créer un nouveau client :  ===
 
