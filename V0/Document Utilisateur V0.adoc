@@ -38,6 +38,15 @@ Une fois sur cette page vous n'avez que deux options :  +
 
 ==  3. Utilisation de l'application : Guichetier
 
+=== Connexion au compte guichetier :  ===
+
+Une fois cliquer sur le bouton "connexion" vous attérirez sur cette page dans laquelle vous devrez entre votre identifiant ainsi que votre mot de passe.
+
+image::Connexion guichetier.PNG[]
+
+Une fois connecter nous retombons sur la page d'accueil mais cette fois nous pouvons voir les informations sur l'employé et son agence :
+
+image::page d'accueil Guichetier.PNG[]
     
 === Modifier informations client :  ===
 
