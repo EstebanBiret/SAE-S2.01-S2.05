@@ -46,10 +46,10 @@ image::Capture6.PNG[]
 
 === Répartition du travail : ===
 image::Capture5.PNG[]
-Répartition des différentes tâches du projet. +
+_Différentes tâches du projet ainsi que le temps nécessaires à leur réalisation._ +
 
 image::Capture4.PNG[]
-Diagramme de Gantt contenant ces tâches.
+_Diagramme de Gantt contenant ces tâches._
 
 === Les packages : ===
 
