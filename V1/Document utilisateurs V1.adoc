@@ -118,7 +118,7 @@ image::page d'accueil chef d'agence.PNG[]
 
 Puis nous allons affichez tous les comptes existant et en cliquant sur un compte nous voyons que le boutons "Désactiver client" deviens disponible :
 
-image::CRUD.PNG[]
+image::CRUD.png[]
 
 On clique dessus et le compte deviens désactivé et les guichetier n'y auront plus accès.
 
