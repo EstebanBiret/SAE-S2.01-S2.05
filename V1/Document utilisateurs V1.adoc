@@ -58,42 +58,48 @@ image::Gestion des clients.png[]
 
 Puis cliquer sur "Rechercher" pour afficher les différents comptes clients de l'agence comme ceci :
 
-image::Gestion des clients2.PNG[]
+image::Gestion des clients2.png[]
 
-Puis sélectionnez le compte dont vous voulez modifier les informations et cliquer ensuite sur "Modifier client". +
-Vous atterrirez sur cette page là dans laquelle vous pourrez modifier les informations du clients comme vous le souhaitez.
+Puis sélectionnez le compte dont vous voulez modifier les informations et cliquer ensuite sur "Comptes client". +
+Vous atterrirez sur une page vous présentant les différents comptes du client puis sélectionné en un puis cliqué sur "Voir opérations". +
+Vous attérirrez sur cette page qui vous permettra de débiter de l'argent de se compte ou de faire un crédit.
 
-image::Modifier information client.PNG[]
+image::debitercrediter.PNG[]
 
 === Créer un compte :  ===
 
 Afin de créer un nouveau client nous allons revenir sur la page de gestion des clients vide :
 
-image::Gestion des clients.PNG[]
+image::Gestion des clients.png[]
 
-Puis nous allons cliquer sur le bouton "nouveau client" en bas à droite de la page. +
-Nous atterissons donc sur cette page :
+Puis nous allons cliquer sur le bouton recherche à nouveau pour affiché tous les comptes existants.
 
-image::Nouveau client.PNG[]
+image::Gestion des clients2.png[]
 
-Vous n'avez plus qu'à remplir les informations concernant le client puis à cliquer sur le bouton "ajouter" :
+Puis sélectionné un compte et cliqué sur "Comptes client"
 
 image::Nouveau client_hugo.PNG[]
 
-Retournez sur la page de gestion des comptes puis en cliquant sur "rechercher" vous verrez le nouveau compte s'afficher en bas de la page.
+Vous verrez apparaitre en bas de la page le bouton "nouveau compte"
 
-image::Gestion des clients3.PNG[]
+image::nouveaucompte.PNG
 
+Cliquez dessus et vous attérirrez sur cette petite fenètre.
+
+image::nouveaucompte2.PNG
+
+Sélectionnez le découvert autorisez et le solde de premier dépot puis cliqué sur ajouter et vous verrez le compte apparaitre.
 
 === Effectuer un virement de compte à compte : ===
 
-Afin de consulter un compte nous allons rester sur cette page puis selectionner un compte lambda et cliquer sur "Comptes client" :
+Afin d'effectuer un virement nous allons nous placé sur un compte client puis allons voir les opération. +
+En bas des boutons créditer et débiter un compte ce trouve le bouton "Virement vers un compte", cliqué sur un compte et sélectionnez "Virement vers un compte". +
 
-image::Gestion des clients2.PNG[]
+image::virementversuncompte.png[]
 
-Vous atterrirez sur une page qui nous donnera toutes les informations sur les différentes comptes du client dans cette agence.
+Vous atterrirez sur une page qui vous demandera de choisir le compte vers lequel vous voulez faire le virement et le montant que vous voulez envoyez.
 
-image::Consulter un compte.PNG[]
+image::virementversuncompte2.png[]
 
 === Clôturer un compte : ===
 
