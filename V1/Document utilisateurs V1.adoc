@@ -77,9 +77,6 @@ Puis nous allons cliquer sur le bouton recherche à nouveau pour affiché tous l
 image::Gestion des clients2.png[]
 
 Puis sélectionné un compte et cliqué sur "Comptes client"
-
-image::Nouveau client_hugo.PNG[]
-
 Vous verrez apparaitre en bas de la page le bouton "nouveau compte"
 
 image::nouveaucompte.PNG
