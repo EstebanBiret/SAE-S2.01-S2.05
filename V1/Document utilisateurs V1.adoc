@@ -116,11 +116,10 @@ Pour ceci nous allons nous connecter sur un nouveau compte de chef d'agence cett
 
 image::page d'accueil chef d'agence.PNG[]
 
-Puis nous allons sélectionner un compte client et nous allons sélectionner ses informations clients. +
-Nous pouvons voir que en bas nous pouvons maintenant rendre un client inactif :
+Puis nous allons affichez tous les comptes existant et en cliquant sur un compte nous voyons que le boutons "Désactiver client" deviens disponible :
 
-image::Client inactif.PNG[]
+image::CRUD.PNG[]
 
-On clique sur le bouton "Modifier" et le compte deviens inactif et les guichetier n'ont plus accès à se compte.
+On clique dessus et le compte deviens désactivé et les guichetier n'y auront plus accès.
 
 
