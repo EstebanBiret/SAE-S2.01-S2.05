@@ -114,7 +114,7 @@ image::cloturercompte2.PNG[]
 
 Pour ceci nous allons nous connecter sur un nouveau compte de chef d'agence cette fois ci :
 
-image::page d'accueil chef d'agence.PNG[]
+image::page d'accueil chef d'agence.png[]
 
 Puis nous allons affichez tous les comptes existant et en cliquant sur un compte nous voyons que le boutons "Désactiver client" deviens disponible :
 
