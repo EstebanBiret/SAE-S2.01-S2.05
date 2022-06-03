@@ -79,11 +79,11 @@ image::Gestion des clients2.png[]
 Puis sélectionné un compte et cliqué sur "Comptes client"
 Vous verrez apparaitre en bas de la page le bouton "nouveau compte"
 
-image::nouveaucompte.PNG
+image::test.PNG
 
 Cliquez dessus et vous attérirrez sur cette petite fenètre.
 
-image::nouveaucompte2.PNG
+image::test2.PNG
 
 Sélectionnez le découvert autorisez et le solde de premier dépot puis cliqué sur ajouter et vous verrez le compte apparaitre.
 
