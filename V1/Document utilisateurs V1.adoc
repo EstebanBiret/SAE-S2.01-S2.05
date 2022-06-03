@@ -100,22 +100,13 @@ image::virementversuncompte2.png[]
 
 === Clôturer un compte : ===
 
-Pour débiter un compte nous restons sur la page de consultation d'un compte client :
+Pour cloturer un compte nous allons sur un la page des comptes d'un client pour nous sélectionnons un compte et cliquons sur "Supprimer un compte" :
 
-image::Consulter un compte.PNG[]
+image::Capture.PNG[]
 
-puis on sélectionne un compte et on clique sur le bouton "voir opérations" qui nous amène ici :
+Puis on clique sur le compte en allant voir les opérations on se rend compte que on ne peux plus agir sur ce compte car les options sont désactiver
 
-image::Gestion des opérations.PNG[]
-
-Puis nous cliquons sur "Enregistrer débit" et nous rentrons la somme et la manière dont nous débiton l'argent du compte :
-
-image::Effectuer un debit.PNG[]
-
-Puis nous revenon sur la fenètre des informations du compte du client et nous remarquons que en effet l'argent a été débité du compte.
-
-image::Débit de 50.PNG[]
-
+image::cloturercompte2.PNG[]
 
 ==  4. Utilisation de l'application : chef d'agence
 
