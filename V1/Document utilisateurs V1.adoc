@@ -1,4 +1,4 @@
-= Documentation Utilisateurs V1
+= Documentation Utilisateurs V1 DailyBank
 :toc:
 :toc-title: Sommaire
 
@@ -41,6 +41,7 @@ Une fois sur cette page vous n'avez que deux options :  +
 === Connexion au compte guichetier :  ===
 
 Une fois cliquer sur le bouton "connexion" vous atterrirez sur cette page dans laquelle vous devrez entrer votre identifiant ainsi que votre mot de passe.
+Si le mot de passe ou l'identifiant n'est pas bon un message d'erreur apparaitra.
 
 image::Connexion guichetier.png[]
 
@@ -66,6 +67,8 @@ Vous attérirrez sur cette page qui vous permettra de débiter de l'argent de se
 
 image::debitercrediter.PNG[]
 
+N'oubliez pas qu'il sera impossible de débiter un compte dont le solde n'est pas suffisant...
+
 === Créer un compte :  ===
 
 Afin de créer un nouveau client nous allons revenir sur la page de gestion des clients vide :
@@ -85,7 +88,8 @@ Cliquez dessus et vous attérirrez sur cette petite fenètre.
 
 image::test2.PNG[]
 
-Sélectionnez le découvert autorisez et le solde de premier dépot puis cliqué sur ajouter et vous verrez le compte apparaitre.
+Sélectionnez le découvert autorisez et le solde de premier dépot car sans cela le compte ne pourra être crée, puis cliqué sur ajouter et vous verrez le compte apparaitre.
+
 
 === Effectuer un virement de compte à compte : ===
 
@@ -94,7 +98,8 @@ En bas des boutons créditer et débiter un compte ce trouve le bouton "Virement
 
 image::virementversuncompte.png[]
 
-Vous atterrirez sur une page qui vous demandera de choisir le compte vers lequel vous voulez faire le virement et le montant que vous voulez envoyez.
+Vous atterrirez sur une page qui vous demandera de choisir le compte vers lequel vous voulez faire le virement et le montant que vous voulez envoyez. +
+Vérifiez bien que le montant du virement est égale ou inférieur au solde du compte sinon le virement cera impossible.
 
 image::virementversuncompte2.png[]
 
@@ -118,7 +123,7 @@ image::page d'accueil chef d'agence.png[]
 
 Puis nous allons affichez tous les comptes existant et en cliquant sur un compte nous voyons que le boutons "Désactiver client" deviens disponible :
 
-image::CRUD.png[]
+image::inactif2.PNG[]
 
 On clique dessus et le compte deviens désactivé et les guichetier n'y auront plus accès.
 
