@@ -1,0 +1,33 @@
+@ -0,0 +1,32 @@
+
+.Répartition des téches et état d'avancement
+[options="header,footer"]
+|=======================
+|version|user     |use case   |cas...                 |   Etudiant 1 | Etudiant 2  |   Etudiant 3 | Etudiant 4
+|1    |Chef de projet    |CRUD employé  |C| | | |
+|1    |chef de projet    |CRUD employé  |R| | | |
+|1    |chef de projet    |CRUD employé  |U| | | |
+|1    |chef de projet    |CRUD employé  |D| | | |
+|1    |Guichetier     | Compte | Créer|| | | 
+|1    |Guichetier     | Compte | Créditer/Débiter|| | | 
+|1    |Guichetier     | Compte | Effectuer un virement|| | | 
+|1    |Guichetier     | Compte | Cléturer|| | | 
+|2    |Chef d'Agence     | Compte | Débit exceptionnel|| | | 
+|2    |Chef d'Agence     | Emprunt | Simuler emprunt|| | | 
+|2    |Chef d'Agence     | Emprunt | Simuler assurance|| | | 
+|2    |Guichetier     | Compte | Relevé PDF|| | | 
+|2    |Guichetier     | CRUD Prélévement | C|| | | 
+|2    |Guichetier     | CRUD Prélévement | R|| | | 
+|2    |Guichetier     | CRUD Prélévement | U|| | | 
+|2    |Guichetier     | CRUD Prélévement | D|| | | 
+|2    |Bach     | Prélévements automatiques | || | | 
+|2    |Bach     | Reléves mensuels | || | | 
+
+|=======================
+
+
+Chaque étudiant doit mettre son nom sur une des colonnes étudiant.
+Dans sa colonne il doit remplir la ligne correspondant é une partie qu'il a développé en indiquant
+
+F pour fonctionnel ou
+D pour en Développement
