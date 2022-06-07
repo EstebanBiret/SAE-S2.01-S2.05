@@ -1,0 +1,77 @@
+= Documentation Utilisateurs V2 DailyBank
+:toc:
+:toc-title: Sommaire
+
+== Équipe
+* Bastien BALMES 
+* Léo FALETTI
+* Esteban BIRET-TOSCANO
+* Hugo VACQUIER
+
+== 1. Présentation de l’application
+
+"La banque DailyBank souhaite développer une application JAVA-Oracle de gestion des comptes clients pour remplacer plusieurs outils obsolètes. Ce développement s’inscrit dans le cadre de la restructuration de ses services bancaires et l’application sera déployée dans les 100 agences que compte son réseau. Vous travaillerez à partir d’une application existante « Daily Bank » qu’il faudra adapter aux nouveaux besoins de la banque."
+
+L’application DailyBank et faite pour deux utilisateurs distincts : 
+
+** Les guichetiers : Ils possèdent les droits leur permettant de gérer des clients ainsi comptes que des comptes de l'agence. Mais aussi :
+* Générer un relevé mensuel d’un compte en PDF
+* Gérer (faire le « CRUD ») les prélevement automatiques
+** Les Chefs d’Agence : Quant à lui me Chef d'Agence peut faire les mêmes choses que le guichetier mais il peut en plus :
+* Effectuer un Débit exceptionnel
+* Simuler un emprunt
+* Simuler une assurance d’emprunt
+
+== 2. Lancement de l'application
+
+=== Démarrage de l'application :  ===
+
+Voici la page d'accueil qui ce présente à vous quand vous lancez l'application :
+
+image::page d'accueil.png[]
+
+Une fois sur cette page vous n'avez que deux options :  +
+    -Quitter l'application +
+    -Vous connecter à un compte de guichetier ou de chef d'agence grace au bouton "connexion"
+
+
+
+==  3. Utilisation de l'application : Guichetier
+
+=== Connexion au compte guichetier :  ===
+
+Une fois cliquer sur le bouton "connexion" vous atterrirez sur cette page dans laquelle vous devrez entrer votre identifiant ainsi que votre mot de passe.
+Si le mot de passe ou l'identifiant n'est pas bon un message d'erreur apparaitra.
+
+image::Connexion guichetier.png[]
+
+Une fois connecté nous retombons sur la page d'accueil mais cette fois nous pouvons voir les informations sur l'employé et son agence :
+
+image::page d'accueil Guichetier.png[]
+
+Vous avez maintenant accès aux fonctionnalités d'un guichetier.
+    
+=== Générer un relevé mensuel d’un compte en PDF  :  ===
+
+
+=== Gérer (faire le « CRUD ») les prélevement automatiques :  ===
+
+
+
+==  4. Utilisation de l'application : chef d'agence
+
+=== Effectuer un Débit exceptionnel :  ===
+
+
+
+
+=== Simuler un emprunt : ===
+
+
+
+=== Simuler une assurance d’emprunt : ===
+
+
+
+
+
