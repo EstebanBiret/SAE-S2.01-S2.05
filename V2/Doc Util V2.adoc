@@ -154,11 +154,81 @@ La fonctionnalité n'est pas encore opérationnel mais ce bouton permet de suppr
 
 ==  5a. Version développer V1 guichetier :
 
+=== Créditer/débiter un compte :  ===
 
+Maintenant vous pouvez cliquer sur le bouton "Gestion" dans la barre de menu en haut et vous pourrez cliquer sur le bouton "client" qui vous amènera sur cette page :
+
+image::Gestion des clients.png[]
+
+Puis cliquer sur "Rechercher" pour afficher les différents comptes clients de l'agence comme ceci :
+
+image::Gestion des clients2.png[]
+
+Puis sélectionnez le compte dont vous voulez modifier les informations et cliquer ensuite sur "Comptes client". +
+Vous atterrirez sur une page vous présentant les différents comptes du client puis sélectionné en un puis cliqué sur "Voir opérations". +
+Vous attérirrez sur cette page qui vous permettra de débiter de l'argent de se compte ou de faire un crédit.
+
+image::debitercrediter.PNG[]
+
+N'oubliez pas qu'il sera impossible de débiter un compte dont le solde n'est pas suffisant...
+
+=== Créer un compte :  ===
+
+Afin de créer un nouveau client nous allons revenir sur la page de gestion des clients vide :
+
+image::Gestion des clients.png[]
+
+Puis nous allons cliquer sur le bouton recherche à nouveau pour affiché tous les comptes existants.
+
+image::Gestion des clients2.png[]
+
+Puis sélectionné un compte et cliqué sur "Comptes client"
+Vous verrez apparaitre en bas de la page le bouton "nouveau compte"
+
+image::test.PNG[]
+
+Cliquez dessus et vous attérirrez sur cette petite fenètre.
+
+image::test2.PNG[]
+
+Sélectionnez le découvert autorisez et le solde de premier dépot car sans cela le compte ne pourra être crée, puis cliqué sur ajouter et vous verrez le compte apparaitre.
+
+
+=== Effectuer un virement de compte à compte : ===
+
+Afin d'effectuer un virement nous allons nous placé sur un compte client puis allons voir les opération. +
+En bas des boutons créditer et débiter un compte ce trouve le bouton "Virement vers un compte", cliqué sur un compte et sélectionnez "Virement vers un compte". +
+
+image::virementversuncompte.png[]
+
+Vous atterrirez sur une page qui vous demandera de choisir le compte vers lequel vous voulez faire le virement et le montant que vous voulez envoyez. +
+Vérifiez bien que le montant du virement est égale ou inférieur au solde du compte sinon le virement cera impossible.
+
+image::virementversuncompte2.png[]
+
+=== Clôturer un compte : ===
+
+Pour cloturer un compte nous allons sur un la page des comptes d'un client pour nous sélectionnons un compte et cliquons sur "Supprimer un compte" :
+
+image::Capture.PNG[]
+
+Puis on clique sur le compte en allant voir les opérations on se rend compte que on ne peux plus agir sur ce compte car les options sont désactiver
+
+image::cloturercompte2.PNG[]
 
 ==  5b. Version développer V1 chef d'agence :
 
+=== Gérer les employés :  ===
 
+Pour ceci nous allons nous connecter sur un nouveau compte de chef d'agence cette fois ci :
+
+image::page d'accueil chef d'agence.png[]
+
+Puis nous allons affichez tous les comptes existant et en cliquant sur un compte nous voyons que le boutons "Désactiver client" deviens disponible :
+
+image::inactif2.PNG[]
+
+On clique dessus et le compte deviens désactivé et les guichetier n'y auront plus accès.
 
 ==  6a. Version développer V2 guichetier :
 
