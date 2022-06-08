@@ -39,7 +39,7 @@ L’application DailyBank et faite pour deux utilisateurs distincts :
 
 Voici la page d'accueil qui ce présente à vous quand vous lancez l'application :
 
-image::page d'accueil.PNG[]
+image::page d'accueil.png[]
 
 Une fois sur cette page vous n'avez que deux options :  +
     -Quitter l'application +
