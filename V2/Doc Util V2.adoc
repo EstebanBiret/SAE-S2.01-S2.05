@@ -67,7 +67,7 @@ Une fois cliquer sur le bouton "connexion" vous atterrirez sur cette page dans l
 Si le mot de passe ou l'identifiant n'est pas bon un message d'erreur apparaitra. +
 Le compte que nous allons utiliser en tant que chef d'agence est : Tuff - Lejeune
 
-img
+image::Connexion chef d'agence.png[]
 
 Une fois connecté nous retombons sur la page d'accueil mais cette fois nous pouvons voir les informations sur le chef d'agence et sur son agence :
 
