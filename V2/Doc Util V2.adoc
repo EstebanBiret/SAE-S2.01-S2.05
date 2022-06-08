@@ -25,9 +25,13 @@ L’application DailyBank et faite pour deux utilisateurs distincts :
 * Créer un compte
 * Effectuer un virement de compte à compte
 * Clôturer un compte
-** Les Chefs d’Agence : Quant à eux les Chef d'Agence peut faire les mêmes choses que les guichetiers mais ils peuvent en plus :
+* Générer un relevé mensuel d’un compte en PDF
+* Gérer les prélèvements automatiques des comptes
+** Les Chefs d’Agence : Quant à eux les Chef d'Agence ont accés aux mêmes fonctionnalités que les guichetiers mais ils peuvent en plus :
 * Rendre inactif un client
 * Gérer les employés de son agence
+* Effectuer un Débit exceptionnel
+* Simuler un emprunt
 
 == 2. Lancement de l'application
 
