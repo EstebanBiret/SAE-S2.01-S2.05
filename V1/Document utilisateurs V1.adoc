@@ -1,4 +1,4 @@
-= Documentation Utilisateurs V1 DailyBank
+= Documentation Utilisateurs V1 DailyBank 08/06/2022
 :toc:
 :toc-title: Sommaire
 
@@ -8,7 +8,7 @@
 * Esteban BIRET-TOSCANO
 * Hugo VACQUIER
 
-== 1. Présentation de l’application
+== 1. Présentation de l’application DailyBank
 
 "La banque DailyBank souhaite développer une application JAVA-Oracle de gestion des comptes clients pour remplacer plusieurs outils obsolètes. Ce développement s’inscrit dans le cadre de la restructuration de ses services bancaires et l’application sera déployée dans les 100 agences que compte son réseau. Vous travaillerez à partir d’une application existante « Daily Bank » qu’il faudra adapter aux nouveaux besoins de la banque."
 
