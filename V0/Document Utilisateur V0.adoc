@@ -127,6 +127,6 @@ Nous pouvons voir que en bas nous pouvons maintenant rendre un client inactif :
 
 image::Client inactif.PNG[]
 
-On clique sur le bouton "Modifier" et le compte deviens inactif et les guichetier n'ont plus accès à se compte.
+La fonctionnalité n'est pas encore opérationnel mais ce bouton permet de supprimer un client de la base de donnée.
 
 
