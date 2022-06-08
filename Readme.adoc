@@ -1,3 +1,21 @@
+== Auteur(s)
+
+=== Du sujet...
+- Jean-Michel Bruel (Université de Toulouse), mailto:bruel@irit.fr[bruel@irit.fr]
+- Version: 2022.05 (BUT1 2022)
+//- Kata length: 12 hours
+- Durée :  15 heures (9 créneaux TP + 1 cours)
+
+=== De la solution...
+
+* LAST NAME : BIRET-TOSCANO / VACQUIER / FALETTI / BALMES
+* First name : Esteban / Hugo / Léo / Bastien
+* TD group : 
+- [ ] 1
+- [ ] 2
+- [ ] 3
+- [x] 4
+
 == Livrables
 
 [cols="1,2,2,5",options=header]
