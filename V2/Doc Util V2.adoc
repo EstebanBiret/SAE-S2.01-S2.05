@@ -152,4 +152,16 @@ image::Client inactif.PNG[]
 
 La fonctionnalité n'est pas encore opérationnel mais ce bouton permet de supprimer un client de la base de donnée.
 
+==  5a. Version développer V1 guichetier :
 
+
+
+==  5b. Version développer V1 chef d'agence :
+
+
+
+==  6a. Version développer V2 guichetier :
+
+
+
+==  6b. Version développer V2 chef d'agence :
