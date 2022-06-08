@@ -1,4 +1,4 @@
-= Documentation Utilisateurs finale Daily Bank
+= Documentation Utilisateurs finale Daily Bank - 10/06/2022
 :toc:
 :toc-title: Sommaire
 
@@ -16,13 +16,18 @@
 
 L’application DailyBank et faite pour deux utilisateurs distincts : 
 
-** Les guichetiers : Ils possèdent les droits leur permettant de gérer des clients ainsi comptes que des comptes de l'agence. Mais aussi :
+** Les guichetiers : Ils possèdent les droits leurs permettants de gérer des clients ainsi que des comptes de l'agence, mais aussi :
 * Modifier les informations des clients
 * Créer un nouveau client
 * Consulter un compte
 * Débiter un compte
-** Les Chefs d’Agence : Quant à lui me Chef d'Agence peut faire les mêmes choses que le guichetier mais il peut en plus :
+* Créditer/débiter un compte
+* Créer un compte
+* Effectuer un virement de compte à compte
+* Clôturer un compte
+** Les Chefs d’Agence : Quant à eux les Chef d'Agence peut faire les mêmes choses que les guichetiers mais ils peuvent en plus :
 * Rendre inactif un client
+* Gérer les employés de son agence
 
 == 2. Lancement de l'application
 
@@ -35,8 +40,6 @@ image::page d'accueil.PNG[]
 Une fois sur cette page vous n'avez que deux options :  +
     -Quitter l'application +
     -Vous connecter à un compte de guichetier ou de chef d'agence grace au bouton "connexion"
-
-
 
 ==  3. connexion à l'application :
 
@@ -59,6 +62,16 @@ Vous avez maintenant accès aux fonctionnalités d'un guichetier.
 Une fois cliquer sur le bouton "connexion" vous atterrirez sur cette page dans laquelle vous devrez entrer votre identifiant de chef d'agence ainsi que votre mot de passe. +
 Si le mot de passe ou l'identifiant n'est pas bon un message d'erreur apparaitra. +
 Le compte que nous allons utiliser en tant que chef d'agence est : Tuff - Lejeune
+
+img
+
+Une fois connecté nous retombons sur la page d'accueil mais cette fois nous pouvons voir les informations sur le chef d'agence et sur son agence :
+
+image::page d'accueil chef d'agence.PNG[]
+
+Vous avez maintenant accès aux fonctionnalités d'un chef d'agence.
+
+==  4a. Version existante V0 guichetier :
     
 === Modifier informations client :  ===
 
@@ -124,15 +137,11 @@ Puis nous revenon sur la fenètre des informations du compte du client et nous r
 image::Débit de 50.PNG[]
 
 
-==  4. Utilisation de l'application : chef d'agence
+==  4b. Version existante V0 chef d'agence :
 
 === Rendre inactif un client :  ===
 
-Pour ceci nous allons nous connecter sur un nouveau compte de chef d'agence cette fois ci :
-
-image::page d'accueil chef d'agence.PNG[]
-
-Puis nous allons sélectionner un compte client et nous allons sélectionner ses informations clients. +
+Nous allons sélectionner un compte client et nous allons sélectionner ses informations clients. +
 Nous pouvons voir que en bas nous pouvons maintenant rendre un client inactif :
 
 image::Client inactif.PNG[]
