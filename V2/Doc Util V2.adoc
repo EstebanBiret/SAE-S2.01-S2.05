@@ -53,11 +53,11 @@ Une fois cliquer sur le bouton "connexion" vous atterrirez sur cette page dans l
 Si le mot de passe ou l'identifiant n'est pas bon un message d'erreur apparaitra.
 Le compte que nous allons utiliser en tant que guichetier est : LN - Levieux
 
-image::Connexion guichetier.PNG[]
+image::Connexion guichetier.png[]
 
 Une fois connecté nous retombons sur la page d'accueil mais cette fois nous pouvons voir les informations sur l'employé et son agence :
 
-image::page d'accueil Guichetier.PNG[]
+image::page d'accueil Guichetier.png[]
 
 Vous avez maintenant accès aux fonctionnalités d'un guichetier.
 
@@ -71,7 +71,7 @@ img
 
 Une fois connecté nous retombons sur la page d'accueil mais cette fois nous pouvons voir les informations sur le chef d'agence et sur son agence :
 
-image::page d'accueil chef d'agence.PNG[]
+image::page d'accueil chef d'agence.png[]
 
 Vous avez maintenant accès aux fonctionnalités d'un chef d'agence.
 
@@ -81,64 +81,64 @@ Vous avez maintenant accès aux fonctionnalités d'un chef d'agence.
 
 Maintenant vous pouvez cliquer sur le bouton "Gestion" dans la barre de menu en haut et vous pourrez cliquer sur le bouton "client" qui vous amènera sur cette page :
 
-image::Gestion des clients.PNG[]
+image::Gestion des clients.png[]
 
 Puis cliquer sur "Rechercher" pour afficher les différents comptes clients de l'agence comme ceci :
 
-image::Gestion des clients2.PNG[]
+image::Gestion des clients2.png[]
 
 Puis sélectionnez le compte dont vous voulez modifier les informations et cliquer ensuite sur "Modifier client". +
 Vous atterrirez sur cette page là dans laquelle vous pourrez modifier les informations du clients comme vous le souhaitez.
 
-image::Modifier information client.PNG[]
+image::Modifier information client.png[]
 
 === Créer un nouveau client :  ===
 
 Afin de créer un nouveau client nous allons revenir sur la page de gestion des clients vide :
 
-image::Gestion des clients.PNG[]
+image::Gestion des clients.png[]
 
 Puis nous allons cliquer sur le bouton "nouveau client" en bas à droite de la page. +
 Nous atterissons donc sur cette page :
 
-image::Nouveau client.PNG[]
+image::Nouveau client.png[]
 
 Vous n'avez plus qu'à remplir les informations concernant le client puis à cliquer sur le bouton "ajouter" :
 
-image::Nouveau client_hugo.PNG[]
+image::Nouveau client_hugo.png[]
 
 Retournez sur la page de gestion des comptes puis en cliquant sur "rechercher" vous verrez le nouveau compte s'afficher en bas de la page.
 
-image::Gestion des clients3.PNG[]
+image::Gestion des clients3.png[]
 
 
 === Consulter un compte : ===
 
 Afin de consulter un compte nous allons rester sur cette page puis selectionner un compte lambda et cliquer sur "Comptes client" :
 
-image::Gestion des clients2.PNG[]
+image::Gestion des clients2.png[]
 
 Vous atterrirez sur une page qui nous donnera toutes les informations sur les différentes comptes du client dans cette agence.
 
-image::Consulter un compte.PNG[]
+image::Consulter un compte.png[]
 
 === Débiter un compte : ===
 
 Pour débiter un compte nous restons sur la page de consultation d'un compte client :
 
-image::Consulter un compte.PNG[]
+image::Consulter un compte.png[]
 
 puis on sélectionne un compte et on clique sur le bouton "voir opérations" qui nous amène ici :
 
-image::Gestion des opérations.PNG[]
+image::Gestion des opérations.png[]
 
 Puis nous cliquons sur "Enregistrer débit" et nous rentrons la somme et la manière dont nous débiton l'argent du compte :
 
-image::Effectuer un debit.PNG[]
+image::Effectuer un debit.png[]
 
 Puis nous revenon sur la fenètre des informations du compte du client et nous remarquons que en effet l'argent a été débité du compte.
 
-image::Débit de 50.PNG[]
+image::Débit de 50.png[]
 
 
 ==  4b. Version existante V0 chef d'agence :
@@ -148,7 +148,7 @@ image::Débit de 50.PNG[]
 Nous allons sélectionner un compte client et nous allons sélectionner ses informations clients. +
 Nous pouvons voir que en bas nous pouvons maintenant rendre un client inactif :
 
-image::Client inactif.PNG[]
+image::Client inactif.png[]
 
 La fonctionnalité n'est pas encore opérationnel mais ce bouton permet de supprimer un client de la base de donnée.
 
@@ -168,7 +168,7 @@ Puis sélectionnez le compte dont vous voulez modifier les informations et cliqu
 Vous atterrirez sur une page vous présentant les différents comptes du client puis sélectionné en un puis cliqué sur "Voir opérations". +
 Vous attérirrez sur cette page qui vous permettra de débiter de l'argent de se compte ou de faire un crédit.
 
-image::debitercrediter.PNG[]
+image::debitercrediter.png[]
 
 N'oubliez pas qu'il sera impossible de débiter un compte dont le solde n'est pas suffisant...
 
@@ -185,11 +185,11 @@ image::Gestion des clients2.png[]
 Puis sélectionné un compte et cliqué sur "Comptes client"
 Vous verrez apparaitre en bas de la page le bouton "nouveau compte"
 
-image::test.PNG[]
+image::test.png[]
 
 Cliquez dessus et vous attérirrez sur cette petite fenètre.
 
-image::test2.PNG[]
+image::test2.png[]
 
 Sélectionnez le découvert autorisez et le solde de premier dépot car sans cela le compte ne pourra être crée, puis cliqué sur ajouter et vous verrez le compte apparaitre.
 
@@ -210,11 +210,11 @@ image::virementversuncompte2.png[]
 
 Pour cloturer un compte nous allons sur un la page des comptes d'un client pour nous sélectionnons un compte et cliquons sur "Supprimer un compte" :
 
-image::Capture.PNG[]
+image::Capture.png[]
 
 Puis on clique sur le compte en allant voir les opérations on se rend compte que on ne peux plus agir sur ce compte car les options sont désactiver
 
-image::cloturercompte2.PNG[]
+image::cloturercompte2.png[]
 
 ==  5b. Version développer V1 chef d'agence :
 
@@ -226,7 +226,7 @@ image::page d'accueil chef d'agence.png[]
 
 Puis nous allons affichez tous les comptes existant et en cliquant sur un compte nous voyons que le boutons "Désactiver client" deviens disponible :
 
-image::inactif2.PNG[]
+image::inactif2.png[]
 
 On clique dessus et le compte deviens désactivé et les guichetier n'y auront plus accès.
 
