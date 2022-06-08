@@ -1,6 +1,8 @@
-= Documentation Utilisateurs V2 DailyBank
+= Documentation Utilisateurs finale Daily Bank
 :toc:
 :toc-title: Sommaire
+
+== Document réservé à la banque DailyBank
 
 == Équipe
 * Bastien BALMES 
@@ -15,12 +17,12 @@
 L’application DailyBank et faite pour deux utilisateurs distincts : 
 
 ** Les guichetiers : Ils possèdent les droits leur permettant de gérer des clients ainsi comptes que des comptes de l'agence. Mais aussi :
-* Générer un relevé mensuel d’un compte en PDF
-* Gérer (faire le « CRUD ») les prélevement automatiques
+* Modifier les informations des clients
+* Créer un nouveau client
+* Consulter un compte
+* Débiter un compte
 ** Les Chefs d’Agence : Quant à lui me Chef d'Agence peut faire les mêmes choses que le guichetier mais il peut en plus :
-* Effectuer un Débit exceptionnel
-* Simuler un emprunt
-* Simuler une assurance d’emprunt
+* Rendre inactif un client
 
 == 2. Lancement de l'application
 
@@ -28,7 +30,7 @@ L’application DailyBank et faite pour deux utilisateurs distincts :
 
 Voici la page d'accueil qui ce présente à vous quand vous lancez l'application :
 
-image::page d'accueil.png[]
+image::page d'accueil.PNG[]
 
 Une fois sur cette page vous n'avez que deux options :  +
     -Quitter l'application +
@@ -36,42 +38,105 @@ Une fois sur cette page vous n'avez que deux options :  +
 
 
 
-==  3. Utilisation de l'application : Guichetier
+==  3. connexion à l'application :
 
 === Connexion au compte guichetier :  ===
 
 Une fois cliquer sur le bouton "connexion" vous atterrirez sur cette page dans laquelle vous devrez entrer votre identifiant ainsi que votre mot de passe.
 Si le mot de passe ou l'identifiant n'est pas bon un message d'erreur apparaitra.
+Le compte que nous allons utiliser en tant que guichetier est : LN - Levieux
 
-image::Connexion guichetier.png[]
+image::Connexion guichetier.PNG[]
 
 Une fois connecté nous retombons sur la page d'accueil mais cette fois nous pouvons voir les informations sur l'employé et son agence :
 
-image::page d'accueil Guichetier.png[]
+image::page d'accueil Guichetier.PNG[]
 
 Vous avez maintenant accès aux fonctionnalités d'un guichetier.
+
+=== Connexion au compte chef d'agence : ===
+
+Une fois cliquer sur le bouton "connexion" vous atterrirez sur cette page dans laquelle vous devrez entrer votre identifiant de chef d'agence ainsi que votre mot de passe. +
+Si le mot de passe ou l'identifiant n'est pas bon un message d'erreur apparaitra. +
+Le compte que nous allons utiliser en tant que chef d'agence est : Tuff - Lejeune
     
-=== Générer un relevé mensuel d’un compte en PDF  :  ===
+=== Modifier informations client :  ===
+
+Maintenant vous pouvez cliquer sur le bouton "Gestion" dans la barre de menu en haut et vous pourrez cliquer sur le bouton "client" qui vous amènera sur cette page :
+
+image::Gestion des clients.PNG[]
+
+Puis cliquer sur "Rechercher" pour afficher les différents comptes clients de l'agence comme ceci :
+
+image::Gestion des clients2.PNG[]
+
+Puis sélectionnez le compte dont vous voulez modifier les informations et cliquer ensuite sur "Modifier client". +
+Vous atterrirez sur cette page là dans laquelle vous pourrez modifier les informations du clients comme vous le souhaitez.
+
+image::Modifier information client.PNG[]
+
+=== Créer un nouveau client :  ===
+
+Afin de créer un nouveau client nous allons revenir sur la page de gestion des clients vide :
+
+image::Gestion des clients.PNG[]
+
+Puis nous allons cliquer sur le bouton "nouveau client" en bas à droite de la page. +
+Nous atterissons donc sur cette page :
+
+image::Nouveau client.PNG[]
+
+Vous n'avez plus qu'à remplir les informations concernant le client puis à cliquer sur le bouton "ajouter" :
+
+image::Nouveau client_hugo.PNG[]
+
+Retournez sur la page de gestion des comptes puis en cliquant sur "rechercher" vous verrez le nouveau compte s'afficher en bas de la page.
+
+image::Gestion des clients3.PNG[]
 
 
-=== Gérer (faire le « CRUD ») les prélevement automatiques :  ===
+=== Consulter un compte : ===
 
+Afin de consulter un compte nous allons rester sur cette page puis selectionner un compte lambda et cliquer sur "Comptes client" :
+
+image::Gestion des clients2.PNG[]
+
+Vous atterrirez sur une page qui nous donnera toutes les informations sur les différentes comptes du client dans cette agence.
+
+image::Consulter un compte.PNG[]
+
+=== Débiter un compte : ===
+
+Pour débiter un compte nous restons sur la page de consultation d'un compte client :
+
+image::Consulter un compte.PNG[]
+
+puis on sélectionne un compte et on clique sur le bouton "voir opérations" qui nous amène ici :
+
+image::Gestion des opérations.PNG[]
+
+Puis nous cliquons sur "Enregistrer débit" et nous rentrons la somme et la manière dont nous débiton l'argent du compte :
+
+image::Effectuer un debit.PNG[]
+
+Puis nous revenon sur la fenètre des informations du compte du client et nous remarquons que en effet l'argent a été débité du compte.
+
+image::Débit de 50.PNG[]
 
 
 ==  4. Utilisation de l'application : chef d'agence
 
-=== Effectuer un Débit exceptionnel :  ===
+=== Rendre inactif un client :  ===
 
+Pour ceci nous allons nous connecter sur un nouveau compte de chef d'agence cette fois ci :
 
+image::page d'accueil chef d'agence.PNG[]
 
+Puis nous allons sélectionner un compte client et nous allons sélectionner ses informations clients. +
+Nous pouvons voir que en bas nous pouvons maintenant rendre un client inactif :
 
-=== Simuler un emprunt : ===
+image::Client inactif.PNG[]
 
-
-
-=== Simuler une assurance d’emprunt : ===
-
-
-
+La fonctionnalité n'est pas encore opérationnel mais ce bouton permet de supprimer un client de la base de donnée.
 
 
