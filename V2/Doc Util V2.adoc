@@ -232,6 +232,49 @@ On clique dessus et le compte deviens désactivé et les guichetier n'y auront p
 
 ==  6a. Version développer V2 guichetier :
 
+=== Générer un relevé mensuel d’un compte en PDF : ===
 
+Pour générer le relevé mensuel d'un compte en PDF nous allons commencer par choisir un compte client comme celui ci :
+
+image::compteclientgenererpdf.png[]
+
+Puis une fenêtre va s'ouvrir pour vous signalé l'endroit ou ce situe le PDF.
+
+image::popuppdf.png[]
+
+Suivez le chemin indiquer puis vous pourrez ouvrir le PDF pour observer votre relevé mensuel :
+
+image::relevemensuel.png[]
+
+=== Gérer les prélèvements automatiques des comptes : ===
 
 ==  6b. Version développer V2 chef d'agence :
+
+=== Effectuer un Débit exceptionnel : ===
+
+=== Simuler un emprunt : ===
+
+Pour simuler un emprunt nous devons nous placer dans la gestion des comptes d'un client :
+
+image::gestionsdescomptesclient.png[]
+
+Puis à droit nous allons cliqué sur le bouton "Simuler un emprunt" qui nous amènera sur cette nouvelle page :
+
+image::simulerunemprunt1.png[]
+
+Remplissez toutes les informations nécessaire sous peine de voir cette petite fenêtre s'affiché :
+
+image::popupsimulerunemprunt.png[]
+
+Une fois toutes les informations remplies un message vous signalera que la simulation est réussie et vous aurez accés aux informations que vous cherchiez.
+
+image::simulerunemprunt.png[]
+
+
+
+
+
+
+
+
+
