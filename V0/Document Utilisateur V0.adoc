@@ -41,6 +41,7 @@ Une fois sur cette page vous n'avez que deux options :  +
 === Connexion au compte guichetier :  ===
 
 Une fois cliquer sur le bouton "connexion" vous atterrirez sur cette page dans laquelle vous devrez entrer votre identifiant ainsi que votre mot de passe.
+Si le mot de passe ou l'identifiant n'est pas bon un message d'erreur apparaitra.
 
 image::Connexion guichetier.PNG[]
 
