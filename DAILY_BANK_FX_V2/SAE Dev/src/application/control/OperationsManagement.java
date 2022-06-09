@@ -120,6 +120,9 @@ public class OperationsManagement {
                     }
                 }
 				
+				
+				
+				
 				//sinon il ne peut faire qu'un débit standard (il reçoit donc une exception)
 				else {
 					ao.insertDebit(this.compteConcerne.idNumCompte, op.montant, op.idTypeOp);

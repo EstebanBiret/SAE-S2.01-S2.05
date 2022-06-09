@@ -262,7 +262,7 @@ public class ComptesManagementController implements Initializable {
 		
 	      try
 	      {
-	         PdfWriter writer = PdfWriter.getInstance(document, new FileOutputStream("Releve-mensuel.pdf"));
+	         PdfWriter writer = PdfWriter.getInstance(document, new FileOutputStream("Relevé-mensuel.pdf"));
 	         document.open();
 	         Font titleFont = FontFactory.getFont(FontFactory.TIMES,40f);
 			 Font miniTittleFont = FontFactory.getFont(FontFactory.TIMES,25f);
@@ -305,7 +305,7 @@ public class ComptesManagementController implements Initializable {
 	       	 Alert alert = new Alert(AlertType.INFORMATION);
 			 alert.setTitle("Information");
 			 alert.setHeaderText("Relevé bancaire mensuel :");
-			 alert.setContentText(" Le pdf ce situe :C:\\Users\\Etudiant\\Downloads avec le nom : Relevé-Mensuel.pdf");
+			 alert.setContentText(" Le pdf se situe à la racine du projet avec le nom : Relevé-Mensuel.pdf");
 
 		 	 alert.showAndWait();
 		
