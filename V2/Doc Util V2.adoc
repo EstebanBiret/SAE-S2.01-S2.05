@@ -37,7 +37,7 @@ L’application DailyBank et faite pour deux utilisateurs distincts :
 
 === Démarrage de l'application :  ===
 
-Voici la page d'accueil qui ce présente à vous quand vous lancez l'application :
+Voici la page d'accueil qui se présente à vous quand vous lancez l'application :
 
 image::page d'accueil.png[]
 
@@ -49,7 +49,7 @@ Une fois sur cette page vous n'avez que deux options :  +
 
 === Connexion au compte guichetier :  ===
 
-Une fois cliquer sur le bouton "connexion" vous atterrirez sur cette page dans laquelle vous devrez entrer votre identifiant ainsi que votre mot de passe.
+Une fois le bouton "connexion" cliqué, vous atterrirez sur cette page dans laquelle vous devrez entrer votre identifiant ainsi que votre mot de passe.
 Si le mot de passe ou l'identifiant n'est pas bon un message d'erreur apparaitra.
 Le compte que nous allons utiliser en tant que guichetier est : LN - Levieux
 
@@ -63,7 +63,7 @@ Vous avez maintenant accès aux fonctionnalités d'un guichetier.
 
 === Connexion au compte chef d'agence : ===
 
-Une fois cliquer sur le bouton "connexion" vous atterrirez sur cette page dans laquelle vous devrez entrer votre identifiant de chef d'agence ainsi que votre mot de passe. +
+Une fois le bouton "connexion cliqué, vous atterrirez sur cette page dans laquelle vous devrez entrer votre identifiant de chef d'agence ainsi que votre mot de passe. +
 Si le mot de passe ou l'identifiant n'est pas bon un message d'erreur apparaitra. +
 Le compte que nous allons utiliser en tant que chef d'agence est : Tuff - Lejeune
 
@@ -87,8 +87,8 @@ Puis cliquer sur "Rechercher" pour afficher les différents comptes clients de l
 
 image::Gestion des clients2.png[]
 
-Puis sélectionnez le compte dont vous voulez modifier les informations et cliquer ensuite sur "Modifier client". +
-Vous atterrirez sur cette page là dans laquelle vous pourrez modifier les informations du clients comme vous le souhaitez.
+Sélectionnez le compte dont vous voulez modifier les informations et cliquez ensuite sur "Modifier client". +
+Vous atterrirez sur cette page là dans laquelle vous pourrez modifier les informations du client comme vous le souhaitez.
 
 image::Modifier information client.png[]
 
@@ -118,7 +118,7 @@ Afin de consulter un compte nous allons rester sur cette page puis selectionner 
 
 image::Gestion des clients2.png[]
 
-Vous atterrirez sur une page qui nous donnera toutes les informations sur les différentes comptes du client dans cette agence.
+Vous atterrirez sur une page qui nous donnera toutes les informations sur les différents comptes du client dans cette agence.
 
 image::Consulter un compte.png[]
 
@@ -132,11 +132,11 @@ puis on sélectionne un compte et on clique sur le bouton "voir opérations" qui
 
 image::Gestion des opérations.png[]
 
-Puis nous cliquons sur "Enregistrer débit" et nous rentrons la somme et la manière dont nous débiton l'argent du compte :
+Puis nous cliquons sur "Enregistrer débit" et nous rentrons la somme et la manière dont nous débitons l'argent du compte :
 
 image::Effectuer un debit.png[]
 
-Puis nous revenon sur la fenètre des informations du compte du client et nous remarquons que en effet l'argent a été débité du compte.
+Nous revenons ensuite sur la fenêtre des informations du compte du client et nous remarquons que en effet l'argent a été débité du compte.
 
 image::Débit de 50.png[]
 
@@ -150,13 +150,13 @@ Nous pouvons voir que en bas nous pouvons maintenant rendre un client inactif :
 
 image::Client inactif.png[]
 
-La fonctionnalité n'est pas encore opérationnel mais ce bouton permet de supprimer un client de la base de donnée.
+La fonctionnalité n'est pas encore opérationnel mais ce bouton permet de supprimer un client de la base de données.
 
 ==  5a. Version développer V1 guichetier :
 
 === Créditer/débiter un compte :  ===
 
-Maintenant vous pouvez cliquer sur le bouton "Gestion" dans la barre de menu en haut et vous pourrez cliquer sur le bouton "client" qui vous amènera sur cette page :
+Maintenant vous pouvez cliquer sur le bouton "Gestion" dans la barre de menu en haut, et vous pourrez cliquer sur le bouton "client" qui vous amènera sur cette page :
 
 image::Gestion des clients.png[]
 
@@ -164,9 +164,9 @@ Puis cliquer sur "Rechercher" pour afficher les différents comptes clients de l
 
 image::Gestion des clients2.png[]
 
-Puis sélectionnez le compte dont vous voulez modifier les informations et cliquer ensuite sur "Comptes client". +
-Vous atterrirez sur une page vous présentant les différents comptes du client puis sélectionné en un puis cliqué sur "Voir opérations". +
-Vous attérirrez sur cette page qui vous permettra de débiter de l'argent de se compte ou de faire un crédit.
+Sélectionnez le compte dont vous voulez modifier les informations et cliquer ensuite sur "Comptes client". +
+Vous atterrirez sur une page vous présentant les différents comptes du client, où vous pourrez en selectionner un. +
+En cliquant ensuite sur "Voir opérations", une page qui vous permettra de débiter de l'argent de ce compte ou de faire un crédit s'ouvrira.
 
 image::debitercrediter.png[]
 
@@ -178,41 +178,40 @@ Afin de créer un nouveau client nous allons revenir sur la page de gestion des 
 
 image::Gestion des clients.png[]
 
-Puis nous allons cliquer sur le bouton recherche à nouveau pour affiché tous les comptes existants.
+Puis nous allons cliquer sur le bouton recherche à nouveau pour afficher tous les comptes existants.
 
 image::Gestion des clients2.png[]
 
-Puis sélectionné un compte et cliqué sur "Comptes client"
-Vous verrez apparaitre en bas de la page le bouton "nouveau compte"
+En sélectionnant un compte et en cliquant sur "Comptes client" vous verrez apparaitre en bas de la page le bouton "nouveau compte" :
 
 image::test.png[]
 
-Cliquez dessus et vous attérirrez sur cette petite fenètre.
+Cliquez dessus et cette petite fenêtre s'ouvrira.
 
 image::test2.png[]
 
-Sélectionnez le découvert autorisez et le solde de premier dépot car sans cela le compte ne pourra être crée, puis cliqué sur ajouter et vous verrez le compte apparaitre.
+Sélectionnez le découvert autorisé et le solde de premier dépot car sans cela le compte ne pourra être créé. Cliquez ensuite sur ajouter et vous verrez le compte apparaitre dans la liste.
 
 
 === Effectuer un virement de compte à compte : ===
 
-Afin d'effectuer un virement nous allons nous placé sur un compte client puis allons voir les opération. +
-En bas des boutons créditer et débiter un compte ce trouve le bouton "Virement vers un compte", cliqué sur un compte et sélectionnez "Virement vers un compte". +
+Afin d'effectuer un virement nous allons nous placer sur un compte client puis allons voir les opération. +
+En bas des boutons créditer et débiter un compte ce trouve le bouton "Virement vers un compte". Selectionnez un compte et cliquez sur "Virement vers un compte". +
 
 image::virementversuncompte.png[]
 
-Vous atterrirez sur une page qui vous demandera de choisir le compte vers lequel vous voulez faire le virement et le montant que vous voulez envoyez. +
-Vérifiez bien que le montant du virement est égale ou inférieur au solde du compte sinon le virement cera impossible.
+Vous atterrirez sur une page qui vous demandera de choisir le compte vers lequel vous voulez faire le virement et le montant que vous voulez envoyer. +
+Vérifiez bien que le montant du virement est égal ou inférieur au solde du compte sinon le virement sera impossible.
 
 image::virementversuncompte2.png[]
 
 === Clôturer un compte : ===
 
-Pour cloturer un compte nous allons sur un la page des comptes d'un client pour nous sélectionnons un compte et cliquons sur "Supprimer un compte" :
+Pour cloturer un compte, rendez vous sur la page des comptes d'un client pour sélectionner le compte concerné et cliquer sur "Supprimer un compte" :
 
 image::Capture.png[]
 
-Puis on clique sur le compte en allant voir les opérations on se rend compte que on ne peux plus agir sur ce compte car les options sont désactiver
+En cliquant sur le compte en allant voir les opérations on se rend compte que on ne peux plus agir sur ce compte car les options sont désactivées :
 
 image::cloturercompte2.png[]
 
@@ -224,11 +223,11 @@ Pour ceci nous allons nous connecter sur un nouveau compte de chef d'agence cett
 
 image::page d'accueil chef d'agence.png[]
 
-Puis nous allons affichez tous les comptes existant et en cliquant sur un compte nous voyons que le boutons "Désactiver client" deviens disponible :
+En affichant tous les comptes existants et en cliquant sur un compte nous voyons que le bouton "Désactiver client" devient disponible :
 
 image::inactif2.png[]
 
-On clique dessus et le compte deviens désactivé et les guichetier n'y auront plus accès.
+On clique dessus et le compte se désactive, et les guichetiers n'y auront plus accès.
 
 ==  6a. Version développer V2 guichetier :
 
@@ -238,11 +237,11 @@ Pour générer le relevé mensuel d'un compte en PDF nous allons commencer par c
 
 image::compteclientgenererpdf.png[]
 
-Puis une fenêtre va s'ouvrir pour vous signalé l'endroit ou ce situe le PDF.
+Puis une fenêtre s'ouvrira pour vous signaler l'endroit ou se situe le PDF.
 
 image::popuppdf.png[]
 
-Suivez le chemin indiquer puis vous pourrez ouvrir le PDF pour observer votre relevé mensuel :
+Suivez le chemin indiqué et vous pourrez ouvrir le PDF pour observer votre relevé mensuel :
 
 image::relevemensuel.png[]
 
@@ -258,11 +257,11 @@ Pour simuler un emprunt nous devons nous placer dans la gestion des comptes d'un
 
 image::gestionsdescomptesclient.png[]
 
-Puis à droit nous allons cliqué sur le bouton "Simuler un emprunt" qui nous amènera sur cette nouvelle page :
+Nous cliquons ensuite sur le bouton "Simuler un emprunt" qui nous amènera sur cette nouvelle page :
 
 image::simulerunemprunt1.png[]
 
-Remplissez toutes les informations nécessaire sous peine de voir cette petite fenêtre s'affiché :
+Remplissez toutes les informations nécessaire sous peine de voir cette petite fenêtre s'afficher :
 
 image::popupsimulerunemprunt.png[]
 
