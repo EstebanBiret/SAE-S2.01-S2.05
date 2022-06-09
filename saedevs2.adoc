@@ -7,7 +7,7 @@
 |1    |Chef de projet    |CRUD employé  |C| | | |F
 |1    |chef de projet    |CRUD employé  |R| | | |F
 |1    |chef de projet    |CRUD employé  |U| | | |F
-|1    |chef de projet    |CRUD employé  |D| | | |F
+|1    |chef de projet    |CRUD employé  |D|F | | |
 |1    |Guichetier     | Compte | Créer|  |F |F | 
 |1    |Guichetier     | Compte | Créditer/Débiter|F| | | 
 |1    |Guichetier     | Compte | Effectuer un virement|| | F| 
