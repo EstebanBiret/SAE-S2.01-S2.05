@@ -43,14 +43,14 @@ image::page d'accueil.png[]
 
 Une fois sur cette page vous n'avez que deux options :  +
     -Quitter l'application +
-    -Vous connecter à un compte de guichetier ou de chef d'agence grace au bouton "connexion"
+    -Vous connecter à un compte de guichetier ou de chef d'agence grâce au bouton "Connexion"
 
 ==  3. Connexion à l'application :
 
 === Connexion au compte guichetier :  ===
 
-Une fois le bouton "connexion" cliqué, vous atterrirez sur cette page dans laquelle vous devrez entrer votre identifiant ainsi que votre mot de passe.
-Si le mot de passe ou l'identifiant n'est pas bon un message d'erreur apparaitra.
+Une fois le bouton "Connexion" cliqué, vous atterrirez sur cette page dans laquelle vous devrez entrer votre identifiant ainsi que votre mot de passe.
+Si le mot de passe ou l'identifiant n'est pas bon, un message d'erreur apparaitra.
 Le compte que nous allons utiliser en tant que guichetier est : LN - Levieux
 
 image::Connexion guichetier.png[]
