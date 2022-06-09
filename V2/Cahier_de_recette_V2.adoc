@@ -92,6 +92,7 @@ L’application doit permettre de gérer des comptes bancaires de dépôt pour d
 | 13
 | Générer un relevé mensuel au format PDF.
 | Il faut sélectionner un compte, puis cliquer sur le bouton 'Générer PDF'. Une fenêtre pop-up s'affiche, nous indiquant la destination du fichier.
+| Etre connecté en tant que Chef d'Agence, sélectionner un compte et cliquer sur le bouton 'Générer PDF'. 
 
 | 14
 | Simuler un emprunt / assurance d'emprunt.
@@ -101,6 +102,6 @@ L’application doit permettre de gérer des comptes bancaires de dépôt pour d
 | 15
 | Effectuer un débit exceptionnel.
 | Lors d'un débit, si le découvert autorisé est dépassé, un pop-up s'affiche nous indiquant que nous allons effectuer un débit exceptionnel, et nous demandant de confirmer ou non. Dans le cas où un guichetier tente de débiter un compte en deça du seuil de découvert autorisé, le champ montant sera entroué en rouge, nous indiquant l'impossibilité de l'opération.
-| Nous devons être Chef d'Agence.
+| Etre connecté en tant que Chef d'Agence et effectuer un débit dépassant le seuil de découvert autorisé par le compte. 
 |===
 
