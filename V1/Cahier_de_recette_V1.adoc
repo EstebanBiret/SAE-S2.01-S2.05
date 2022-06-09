@@ -80,7 +80,7 @@ L’application doit permettre de gérer des comptes bancaires de dépôt pour d
 
 | 12
 | Gérer les employés.
-| en cours
-| en cours
+| Sur la fenêtre principale, cliquer sur "Gestion > Employés". Nous accédons à une fenêtre, où nous pouvons désactiver (supprimer) un employé, le modifier ou en créer un nouveau.
+| Nous devons être Chef d'Agence.
 |===
 
