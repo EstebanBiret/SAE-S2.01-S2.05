@@ -1,0 +1,106 @@
+:toc:
+= Cahier de recette Version finale
+
+
+BIRET-TOSCANO Esteban +
+FALETTI Léo +
+VACQUIER Hugo +
+BALMES Bastien +
+Equipe : 4A-03 +
+v1.0, 2022-01-06 +
+
+== Présentation du sujet :
+1. **Contexte :** +
+La banque DailyBank souhaite développer une application JAVA-Oracle de gestion des comptes clients pour remplacer plusieurs outils obsolètes. Ce développement s’inscrit dans le cadre de la restructuration de ses services bancaires et l’application sera déployée dans les 100 agences que compte son réseau. Nous travaillerons à partir d’une application existante « Daily Bank » qu’il faudra adapter aux nouveaux besoins de la banque.
+
+2. **Objectifs :** +
+L’application doit permettre de gérer des comptes bancaires de dépôt pour des clients préalablement créés. Elle devra permettre de débiter, créditer un compte soit par virement c’est à dire un échange d’argent entre deux comptes distincts mais domiciliés dans le réseau bancaire, soit par une personne physique se présentant devant un guichet. +
+
+== Cahier de test V1 :
+
+|===
+| Id Test | Nom test | Conditions de satisfaction | Préconditions
+
+| 01
+| Se connecter (page d'accueil).
+| Connexion possible à la base de données, l'identifiant et le mot de passe doivent correspondre à un employé existant.
+| Après le lancement de l'application, avoir cliqué sur le bouton 'Se connecter'.
+
+| 02
+| Quitter l'application.
+| Apparition de la fenêtre pop-up "Etes vous sur de vouloir quitter l'application ?".
+|L'application doit-être au préalable lancée (cela tombe sous le sens). 
+
+| 03
+| Créer un nouveau client. 
+| Le format de l'adresse mail doit être valide, les champs doivent être tous remplis (sauf l'adresse). Pour le rendre inactif, vous devez être connecté en tant que chef d'agence.
+| Etre connecté en tant qu'employé.
+
+
+| 04
+| Modifier les informations d'un client.
+| Le format de l'adresse mail doit être valide, les champs doivent être tous remplis (sauf l'adresse). Pour le rendre inactif, vous devez être connecté en tant que chef d'agence.
+| Etre connecté en tant qu'employé, avoir selectionné un client.
+
+| 05
+| Rendre inactif un client.
+| Le client est inactif, il ne peut plus rien faire (comme s'il était supprimé, mais reste tout de même visible).
+| Etre connecté en tant que chef d'agence, avoir sélectionné un client existant. Il y a 2 moyens possible : cliquez sur "Modifier client" et sélectionnez "inactif" ou cliquez sur "Désactiver client".
+
+| 06
+| Consulter un compte.
+| Aucune conditions.
+| Avoir sélectionné un compte et cliqué sur le bouton "Voir opérations".
+
+| 07
+| Débiter un compte.
+| Le montant doit être positif, et ne doit pas dépasser le solde autorisé.
+| Le compte est séléctionné .
+
+
+| 08
+| Débiter un compte (lorsque le découvert ne le permet pas).
+| Un message d'erreur rouge s'affiche, nous indiquant que le découvert du compte nous empêche d'effectuer l'opération. Nous devons indiquer un montant valide pour valider l'opération. 
+| Le compte est séléctionné.
+
+| 09
+| Créditer un compte.
+| Le solde du compte est mis à jour dans la BD, et s'affiche dans l'application. 
+| Le compte est sélectionné.
+
+| 10
+| Effectuer un virement de compte à compte.
+| Le découvert du compte débiteur doit permettre de valider l'opération.
+| Les deux comptes en questions sont séléctionnés.
+
+| 11
+| Clôturer un compte.
+| Le compte est supprimée de la BD et n'apparait donc plus dans l'application. Aucune opération ne peut plus être faite sur ce compte.
+| Le compte est sélectionnée
+
+| 12
+| Gérer les employés.
+| Sur la fenêtre principale, cliquer sur "Gestion > Employés". Nous accédons à une fenêtre, où nous pouvons désactiver (supprimer) un employé, le modifier ou en créer un nouveau
+| Nous devons être Chef d'Agence.
+|===
+
+== Cahier de test V2 :
+
+|===
+| Id Test | Nom test | Conditions de satisfaction | Préconditions
+
+| 13
+| Générer un relevé mensuel au format PDF.
+| Il faut sélectionner un compte, puis cliquer sur le bouton 'Générer PDF'. Une fenêtre pop-up s'affiche, nous indiquant la destination du fichier.
+
+| 14
+| Simuler un emprunt / assurance d'emprunt.
+| Tout les champs doivent être renseignés, auquel cas un pop-up s'affiche nous informant de l'impossibilité  de la création de l'emprunt.
+|Etre connecté en tant que Chef d'Agence, sélectionner un compte et cliquer sur le bouton 'Simuler emprunt'. 
+
+| 15
+| Effectuer un débit exceptionnel.
+| Lors d'un débit, si le découvert autorisé est dépassé, un pop-up s'affiche nous indiquant que nous allons effectuer un débit exceptionnel, et nous demandant de confirmer ou non. Dans le cas où un guichetier tente de débiter un compte en deça du seuil de découvert autorisé, le champ montant sera entroué en rouge, nous indiquant l'impossibilité de l'opération.
+| Nous devons être Chef d'Agence.
+|===
+
