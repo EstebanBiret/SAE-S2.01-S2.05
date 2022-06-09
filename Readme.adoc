@@ -31,7 +31,7 @@
 |         | Gantt V3 à jour   |     https://github.com/IUT-Blagnac/sae2022-bank-banqueroute-4A-03-/blob/859abea22637f60f0f2dcafc33ddc90175154cf7/V3/Gantt_V3.pod[Cliquer ici]                 | 
 |         | `jar` projet |    | pas de jar javadoc pas vue...
 | 05/06   | Gantt V3 à Jour  |    |  
-|         | Doc. Util. V2 (version finale pour nous) |     https://github.com/IUT-Blagnac/sae2022-bank-banqueroute-4A-03-/blob/fdfcf956e02ccace2e6f75f0e7ac7690329adfa8/V2/Doc%20Util%20V2.adoc [Cliquer ici]   |           
+|         | Doc. Util. V2 (version finale pour nous) |     https://github.com/IUT-Blagnac/sae2022-bank-banqueroute-4A-03-/blob/fdfcf956e02ccace2e6f75f0e7ac7690329adfa8/V2/Doc%20Util%20V2.adoc[Cliquer ici]   |           
 |         | Doc. Tec. V2 |   bastien/hugo a faire |     
 |         | Code V2     |   Dans le main                    |
 |         | Recette V2  |  esteban a faire |
