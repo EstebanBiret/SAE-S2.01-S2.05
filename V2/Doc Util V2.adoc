@@ -196,7 +196,7 @@ Sélectionnez le découvert autorisé et le solde de premier dépot car sans cel
 === Effectuer un virement de compte à compte : ===
 
 Afin d'effectuer un virement nous allons nous placer sur un compte client puis allons voir les opération. +
-En bas des boutons créditer et débiter un compte ce trouve le bouton "Virement vers un compte". Selectionnez un compte et cliquez sur "Virement vers un compte". +
+En bas des boutons créditer et débiter un compte se trouve le bouton "Virement vers un compte". Selectionnez un compte et cliquez sur "Virement vers un compte". +
 
 image::virementversuncompte.png[]
 
