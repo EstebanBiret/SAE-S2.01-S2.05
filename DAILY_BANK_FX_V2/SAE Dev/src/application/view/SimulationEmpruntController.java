@@ -18,14 +18,9 @@ import model.data.Emprunt;
 
 public class SimulationEmpruntController implements Initializable {
 
-
+    //Attributs
 	private Emprunt emprunt;
-
-
 	private Stage primaryStage;
-
-
-
 
 	public void initContext(Stage _primaryStage) {
 		this.primaryStage = _primaryStage;

@@ -13,10 +13,7 @@ import javafx.stage.Stage;
 import model.data.CompteCourant;
 import model.data.Operation;
 
-/**
- * @author yann
- * classe qui gère la fenêtre "enregistrement d'une opération" lors d'un crédit ou débit sur un compte
- */
+
 public class OperationEditorPane {
 
 	/**

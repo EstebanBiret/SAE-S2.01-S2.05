@@ -26,10 +26,7 @@ import model.orm.AccessOperation;
 import model.orm.exception.ApplicationException;
 import model.orm.exception.DatabaseConnexionException;
 
-/**
- * @author yann
- * classe dédié à la gestion de la fenêtre "gestion des opérations"
- */
+
 public class OperationsManagement {
 
 	/**
@@ -93,17 +90,7 @@ public class OperationsManagement {
 		Operation op = oep.doOperationEditorDialog(this.compteConcerne, CategorieOperation.DEBIT);
 		if (op != null) {
 			try {
-				AccessOperation ao = new AccessOperation();
-				
-				/*//si l'employé est chef d'agence, il peut faire un débit exceptionnel
-				if(this.dbs.isChefDAgence()) {
-					ao.insertDebitEx(this.compteConcerne.idNumCompte, op.montant, op.idTypeOp);
-				}*/
-				
-				
-				
-				
-				
+				AccessOperation ao = new AccessOperation();				
 				if(this.dbs.isChefDAgence() && (this.compteConcerne.solde - op.montant < this.compteConcerne.debitAutorise)) {
                     int reponse = 0;
                     ButtonType oui = new ButtonType("Oui");
@@ -119,10 +106,7 @@ public class OperationsManagement {
                     a.close();
                     }
                 }
-				
-				
-				
-				
+							
 				//sinon il ne peut faire qu'un débit standard (il reçoit donc une exception)
 				else {
 					ao.insertDebit(this.compteConcerne.idNumCompte, op.montant, op.idTypeOp);

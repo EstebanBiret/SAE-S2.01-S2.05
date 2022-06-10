@@ -111,13 +111,13 @@ public class CompteEditorPaneController implements Initializable {
 		this.primaryStage.showAndWait();
 		return this.compteResult;
 	}
-	
+
 	/*
 	 * Ajoute un compte à la base de donnée
 	 */
 	public CompteCourant creerCompte() {
 		AccessCompteCourant ac = new AccessCompteCourant();
-				
+
 		CompteCourant compte = this.compteEdite; // compte courant
 
 		if (compte != null) {
@@ -145,9 +145,9 @@ public class CompteEditorPaneController implements Initializable {
 				int val;
 				val = Integer.parseInt(this.txtDecAutorise.getText().trim());
 				val *= -1;
-//				if (val < 0) {
-//					throw new NumberFormatException();
-//				}
+				//				if (val < 0) {
+				//					throw new NumberFormatException();
+				//				}
 				if (val > 0) {
 					throw new NumberFormatException();
 				}
@@ -222,11 +222,11 @@ public class CompteEditorPaneController implements Initializable {
 		case CREATION:
 			/*
 			// Utilisation de la méthode créer compte
-			
+
 			this.creerCompte();
 			this.primaryStage.close();
-			
-			
+
+
 
 			////////////////////////////////////////////////////////////
 			NE PAS EFFACER : UTILISER POUR LA FONCTIONNALITE CREERCOMPTE
@@ -268,7 +268,7 @@ public class CompteEditorPaneController implements Initializable {
 				} catch (Exception e ) {
 					e.printStackTrace();
 				}
-			*/
+			 */
 			if (this.isSaisieValide()) {
 				this.compteResult = this.compteEdite;
 				this.primaryStage.close();

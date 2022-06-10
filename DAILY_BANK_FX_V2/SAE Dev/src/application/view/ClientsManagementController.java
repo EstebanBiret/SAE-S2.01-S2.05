@@ -102,7 +102,7 @@ public class ClientsManagementController implements Initializable {
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
 	}
-	
+
 	/*
 	 * Permet de fermer la fenêtre au clique d'un bouton
 	 */
@@ -110,7 +110,7 @@ public class ClientsManagementController implements Initializable {
 	private void doCancel() {
 		this.primaryStage.close();
 	}
-	
+
 	/*
 	 * Permet de rechercher un client avec des informations spécifiques
 	 * si les informations ne sont pas présentes, elle seront vides dans le ListView
@@ -160,7 +160,7 @@ public class ClientsManagementController implements Initializable {
 
 		this.validateComponentState();
 	}
-	
+
 	/*
 	 * Affiche le compte d'un client
 	 */
@@ -173,7 +173,7 @@ public class ClientsManagementController implements Initializable {
 			this.cm.gererComptesClient(client);
 		}
 	}
-	
+
 	/*
 	 * Permet de modifier les informations d'un client
 	 */
@@ -189,78 +189,58 @@ public class ClientsManagementController implements Initializable {
 			}
 		}
 	}
-	
+
 	/*
 	 * Permet de désactiver (supprimer) un client
 	 */
 	@FXML
 	private void doDesactiverClient() throws ManagementRuleViolation, RowNotFoundOrTooManyRowsException, DataAccessException, DatabaseConnexionException {
-		
+
 		int selectedIndice = this.lvClients.getSelectionModel().getSelectedIndex();
 		if (selectedIndice >= 0) {
 			Client cliDesac = this.olc.get(selectedIndice);
 			AccessClient ac = new AccessClient();
 			AccessCompteCourant acc = new AccessCompteCourant();
-			
+
 			switch(cliDesac.getEstInactif()) {
-				case "O":
-					System.out.println("est Inactif");
-					cliDesac.setEstInactif("N");
-					Alert alert = new Alert(AlertType.CONFIRMATION);
-					alert.setTitle("Réactiver le client ?");
-					alert.setHeaderText("Voulez-vous réactiver le client ?");
-					alert.showAndWait().ifPresent(response -> {
-						if(response == ButtonType.OK) {
-							try {
-								ac.updateClient(cliDesac);
-								acc.openCompteClient(cliDesac);
-							} catch (RowNotFoundOrTooManyRowsException | DataAccessException | DatabaseConnexionException | ManagementRuleViolation e) {
-								ExceptionDialog ed = new ExceptionDialog(this.primaryStage, this.dbs, e);
-								ed.doExceptionDialog();
-							}
+			case "O":
+				System.out.println("est Inactif");
+				cliDesac.setEstInactif("N");
+				Alert alert = new Alert(AlertType.CONFIRMATION);
+				alert.setTitle("Réactiver le client ?");
+				alert.setHeaderText("Voulez-vous réactiver le client ?");
+				alert.showAndWait().ifPresent(response -> {
+					if(response == ButtonType.OK) {
+						try {
+							ac.updateClient(cliDesac);
+							acc.openCompteClient(cliDesac);
+						} catch (RowNotFoundOrTooManyRowsException | DataAccessException | DatabaseConnexionException | ManagementRuleViolation e) {
+							ExceptionDialog ed = new ExceptionDialog(this.primaryStage, this.dbs, e);
+							ed.doExceptionDialog();
 						}
-					});
-					break;
-				case "N":
-					System.out.println("Inactif");
-					cliDesac.setEstInactif("O");
-					try {
-						ac.updateClient(cliDesac);
-						acc.closeCompteClient(cliDesac);
-					} catch (RowNotFoundOrTooManyRowsException | DataAccessException | DatabaseConnexionException e) {
-						ExceptionDialog ed = new ExceptionDialog(this.primaryStage, this.dbs, e);
-						ed.doExceptionDialog();
 					}
-					break;
+				});
+				break;
+			case "N":
+				System.out.println("Inactif");
+				cliDesac.setEstInactif("O");
+				try {
+					ac.updateClient(cliDesac);
+					acc.closeCompteClient(cliDesac);
+				} catch (RowNotFoundOrTooManyRowsException | DataAccessException | DatabaseConnexionException e) {
+					ExceptionDialog ed = new ExceptionDialog(this.primaryStage, this.dbs, e);
+					ed.doExceptionDialog();
+				}
+				break;
 			}
-			
+
 			System.out.println("Est devenu : " + cliDesac.getEstInactif());
 		}
-		
+
 		this.doRechercher();
-		/*
-		int selectedIndice = this.lvClients.getSelectionModel().getSelectedIndex();
-		if (selectedIndice >= 0) {
-			Client cliDesac = this.olc.get(selectedIndice);
-			cliDesac.setEstInactif("O");
-			AccessClient ac = new AccessClient();
-			try {
-				ac.updateClient(cliDesac);
-			} catch (RowNotFoundOrTooManyRowsException | DataAccessException | DatabaseConnexionException e) {
-				ExceptionDialog ed = new ExceptionDialog(this.primaryStage, this.dbs, e);
-				ed.doExceptionDialog();
-			}
-			System.out.println(cliDesac.getEstInactif());
-		}
-	
-		Alert alert = new Alert(AlertType.WARNING);
-		alert.setTitle("Désactiver le client");
-		alert.setHeaderText("Voulez vous réellement désactiver le client ?");
-		alert.showAndWait();
-		*/
-		
+
 	}
-	
+
 	/*
 	 * Permet d'ajouter un nouveau client
 	 */
@@ -272,10 +252,10 @@ public class ClientsManagementController implements Initializable {
 			this.olc.add(client);
 		}
 	}
-	
-	
-	
-	
+
+
+
+
 	/*
 	 * Permet de désactiver certains boutons
 	 */
@@ -293,9 +273,9 @@ public class ClientsManagementController implements Initializable {
 			this.btnDesactClient.setDisable(false);
 			this.btnDesactClient.setText("Désactiver Client");
 		}
-		
-		
+
+
 	}
-	
+
 
 }
