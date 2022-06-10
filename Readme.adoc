@@ -29,13 +29,13 @@
 |         | Code V1     |       Dans le main.            | 
 |         | Recette V1 |          V1/Cahier_de_recette_V1.adoc          | 
 |         | Gantt V3 à jour   |     V3/Gantt_V3.pod                 | 
-|         | `jar` projet |    | pas de jar javadoc pas vue...
+|         | `jar` projet |    | Jar V2 directement
 | 05/06   | Gantt V3 à Jour  |    |  
 |         | Doc. Util. V2 (version finale pour nous) |   V2/Doc%20Util%20V2.adoc   |           
 |         | Doc. Tec. V2 |   bastien/hugo a faire |     
 |         | Code V2     |   Dans le main.                    |
 |         | Recette V2  |  V2/Cahier_de_recette_V2.adoc |
-|         | `jar` projet |     |
+|         | `jar` projet |   Dans le main  |
 |12/06   | Gantt V3 à Jour  |    |  
 |         | Doc. Util. V3 |    /     |           
 |         | Doc. Tec. V3 |  /  |     
