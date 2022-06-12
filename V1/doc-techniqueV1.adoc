@@ -173,7 +173,7 @@ image::crud3.png[]
 
 === Effectuer un virement de compte à compte : === 
 image::virement.PNG[]
-image::virement1.PNG[]
+
 Cette fonctionnalité permet à tous les utilisateurs de l'application d'effectuer un virement de compte à compte. Le bouton pour aller à la fenêtre de virement n'est pas encore présent, il sera mis dans le rectangle rouge présent sur la capture d'écran. à implémenter :
 
 image::virement2.PNG[]
