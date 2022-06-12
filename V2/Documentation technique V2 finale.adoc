@@ -46,10 +46,10 @@ _Emplacement du fichier V1 du code._
     Le .jar est trouvable dans le main de notre répository.
 
 === Répartition du travail : ===
-image::Capture5.PNG[]
+image::Capture5.png[]
 _Différentes tâches du projet ainsi que le temps nécessaires à leur réalisation._ +
 
-image::Capture4.PNG[]
+image::Capture4.png[]
 _Diagramme de Gantt contenant ces tâches._
 
 === Les packages : ===
@@ -80,71 +80,71 @@ _Diagramme de Gantt contenant ces tâches._
     
 === Création d’un nouveau client :  ===
 
-image::creer.PNG[]
+image::creer.png[]
 image::creer1.png[]
 Cette fonctionnalité permet à tous les utilisateurs de l'application de créer un nouveau client..
 Lorsqu'un utilisateur clique sur le bouton "Nouveau client", le contrôleur clientsmanagementcontroller du package application.control transfère les informations nécessaires au contrôleur clientsmanagement du package application.control pour l’affichage de la fenêtre de création d’un client. Une fois fait, une fenêtre s'affiche avec toutes les informations du client. Ces informations doivent être valide pour la création du client en question. Une fois les informations validées, elles s'enregistrent dans la base de données, et sont ensuite affichées dans le contrôleur clientsmanagementcontroller.
 
-image::creer3.PNG[]
+image::creer3.png[]
 _Interface de création d'un client._
 
 === Modification d’un client :  ===
 
-image::creer.PNG[]
-image::modifier.PNG[]
+image::creer.png[]
+image::modifier.png[]
 Cette fonctionnalité permet à tous les utilisateurs de l'application de modifier les informations d'un client présent dans la base de données.
 Lorsqu'un utilisateur clique sur le bouton "modifier", le contrôleur clientsmanagementcontroller du package application.control transfère les informations nécessaires au contrôleur clientsmanagement du package application.control pour l’affichage de la fenêtre de modification d’un client. Une fois fait, une fenêtre s'affiche où toutes les informations du client apparaissent, chacune des ces informations peuvent être modifiées si chacune d'entre elles sont valides. Une fois que les informations modifiées sont validées, elles sont mises à jour dans la base de données et affichées dans le contrôleur clientsmanagementcontroller.
 
-image::modifier2.PNG[]
+image::modifier2.png[]
 _Interface de modification d'un client._
 
 === Consultation des clients : ===
-image::creer.PNG[]
-image::rechercher1.PNG[]
+image::creer.png[]
+image::rechercher1.png[]
 Cette fonctionnalité permet à tous les utilisateurs de l'application de consulter la liste des clients.
 Lorsque un utilisateur clique sur le bouton "Rechercher", le contrôleur clientsmanagementcontroller du package application.control transfère les informations nécessaires à l’affichage des clients. Elle permet de consulter la liste des clients de l’agence bancaire. 
 
-image::rechercher.PNG[]
+image::rechercher.png[]
 _Interface de recherche et de consultation des clients._
 
 === Consulter les comptes d’un client : ===
-image::consulter1.PNG[]
-image::consulter2.PNG[]
+image::consulter1.png[]
+image::consulter2.png[]
 Cette fonctionnalité permet à tous les utilisateurs de l'application de consulter les comptes d'un client.
 Lorsqu'un utilisateur clique sur un des clients de la liste, le bouton « comptes client » est activé. Si le bouton est cliqué, le contrôleur comptesmanagementcontroller du package application.view transfère les informations au contrôleur comptesmanagement du package application.control pour l’affichage de la fenêtre de gestion des comptes. Une fenêtre avec toutes les informations des comptes du client choisi s'ouvre alors.
 
-image::screen1.PNG[]
+image::screen1.png[]
 _Interface de consultation des comptes d'un client._
 
 === Consulter les opérations des comptes des clients :  ===
-image::operation.PNG[]
-image::operation1.PNG[]
+image::operation.png[]
+image::operation1.png[]
 Cette fonctionnalité permet à tous les utilisateurs de l'application de consulter les opérations des comptes d'un client.
 Lorsqu'un utilisateur clique sur un des clients de la liste, le bouton « Voir opérations » est activé.  Si le bouton est cliqué, le contrôleur comptesmanagementcontroller du package application.view transfère les informations au contrôleur operationmanagement du package application.control pour l’affichage de la fenêtre de gestion des opérations de chaque client. Une fenêtre avec toutes les opérations d'un compte du client choisi s'ouvre alors.
 
-image::operation2.PNG[]
+image::operation2.png[]
 _Interface de consultation des opérations d'un client._
 
 === Débiter un compte : === 
-image::debit.PNG[]
-image::debit1.PNG[]
+image::debit.png[]
+image::debit1.png[]
 Cette fonctionnalité permet à tous les utilisateurs de l'application de débiter des comptes des clients.
 Lorsqu'un utilisateur clique sur un des clients de la liste, le bouton « voir opérations » peut être cliqué. Si tous ce passe correctement une fenêtre avec toutes les opérations d'un compte du client choisi s'ouvre, il faut ensuite cliquer sur l'un des comptes, puis sur le bouton "voir opérations". Une fenêtre s'ouvre et il suffit de cliquer sur le bouton "Enregistrer débit". Chaque opération est enregistrée dans la BD.
 
-image::debit2.PNG[]
+image::debit2.png[]
 _Interface de débit d'un compte._
 
 === Rendre inactif un client : === 
-image::inactif.PNG[]
-image::inactif1.PNG[]
+image::inactif.png[]
+image::inactif1.png[]
 Cette fonctionnalité permet seulement au chef d'agence de l'application de rendre inactif un client.
 Lorsque le chef d'agence clique sur un des clients de la liste, le bouton « Désactiver client » est activé. Si le bouton est cliqué, le contrôleur comptesmanagementcontroller du package application.view transfère les informations nécessaires pour désactiver le client.
 
-image::inactif2.PNG[]
+image::inactif2.png[]
 _Emplacement du bouton pour désactiver un compte._
 
 === Débiter/Créditer un compte : === 
-image::debit.PNG[]
+image::debit.png[]
 image::credit.png[]
 Cette fonctionnalité permet à tous les utilisateurs de l'application de débiter/créditer des comptes des clients.
 Lorsqu'un utilisateur clique sur un des clients de la liste, le bouton « voir opérations » est activé. Si tout se passe correctement, une fenêtre avec toutes les opérations d'un compte du client choisi s'ouvre, il faut ensuite cliquer sur l'un des comptes, puis sur le bouton "voir opérations". Une fenêtre s'ouvre et enfin il suffit de cliquer sur le bouton "Enregistrer débit" ou "Enregistrer crédit". Chaque opération est enregistrée dans la BD.
@@ -193,7 +193,7 @@ image::pdf2.PNG[]
 
 Le débit exceptionnel est réservé aux chefs d'agences. Il leur permet d'effectuer sur un compte un débit qui dépasse le seuil de découvert autorisé par celui.
 
-image::debit_ex.PNG[]
+image::debit_ex.png[]
 
 === Simuler un emprunt : ===
 
