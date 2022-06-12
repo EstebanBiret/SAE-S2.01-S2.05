@@ -167,7 +167,7 @@ image::pdf2.PNG[]
 
 Le débit exceptionnel est réservé aux chefs d'agences. Il leur permet d'effectuer sur un compte un débit qui dépasse le seuil de découvert autorisé par celui.
 
-image::debit_ex2.PNG[]
+image::debit_ex.PNG[]
 
 === Simuler un emprunt : ===
 
