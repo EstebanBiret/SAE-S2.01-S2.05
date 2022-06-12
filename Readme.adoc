@@ -41,6 +41,6 @@
 |         | Doc. Tec. V3 |  /  |     
 |         | Code V3     |    /                   |
 |         | Recette V3  |  / |
-|         | `jar` projet |  Même .jar que V2   |
+|         | `jar` projet |  Même .jar  que V2   |
 |===
 
