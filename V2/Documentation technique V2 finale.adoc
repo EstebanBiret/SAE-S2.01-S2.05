@@ -181,7 +181,7 @@ Cette fonctionnalité permet à tous les utilisateurs de l'application d'effectu
 image::virement2.PNG[]
 image::virement3.PNG[]
 
-=== Version développé 1 : ===
+=== Version développé 2 : ===
 
 image::DCU V2.png[]
 
