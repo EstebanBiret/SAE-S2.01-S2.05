@@ -77,6 +77,8 @@ _Diagramme de Gantt contenant ces tâches._
 
 
 ==  3. Fonctionnalités de l’application
+
+=== Version développé 1 : ===
     
 === Création d’un nouveau client :  ===
 
@@ -179,8 +181,28 @@ Cette fonctionnalité permet à tous les utilisateurs de l'application d'effectu
 image::virement2.PNG[]
 image::virement3.PNG[]
 
+=== Version développé 1 : ===
+
+image::DCU V2.png[]
+
 === Générer un relevé mensuel d’un compte en PDF : === 
+
+Cette fonctionnalité permet d'obtenir le relevé d'un compte client chaque mois pour qu'il puisse savoir ce qu'il à fait sur son compte.
+
+image::pdf2.PNG[]
 
 === Effectuer un Débit exceptionnel : ===
 
+Le débit exceptionnel est réservé aux chefs d'agences. Il leurs permets d'éffectuer sur un compte un débit qui dépasse le solde du compte ce qui mettra le compte en découvert donc avec un solde négatif.
+
+image::debit_ex2.PNG[]
+
 === Simuler un emprunt : ===
+
+image::DCU V2-emprunt.png[]
+
+La simulation d'emprunt est une simple fonctionnalité sur l'application qui permettra aux clients de se faire une idée sur toutes les informations sur les sommes qu'il devra à la banque suite à un emprunt d'une certaine somme d'argent.
+
+image::simulerunemprunt.png[]
+
+
