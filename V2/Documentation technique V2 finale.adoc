@@ -38,7 +38,7 @@ L’application DailyBank est faite pour deux utilisateurs distincts :
 
     Pour l'installation de l'application DailyBank, rendez-vous sur Github dans les différents dépôts.
     
-image::Capture6.PNG[]
+image::Capture6.png[]
 _Emplacement du fichier V1 du code._
 
 === Le .jar : ===
