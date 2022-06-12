@@ -38,7 +38,7 @@ L’application DailyBank et faite pour deux utilisateurs distincts :
 
     Pour l'installation de l'application DailyBank, on peut l'installer sur github dans les différents dépôts.
     
-image::Capture6.PNG[]
+image::Capture6.png[]
 _Emplacement du fichier V1 du code._
 
 === Le .jar : ===
@@ -46,10 +46,10 @@ _Emplacement du fichier V1 du code._
     Le .jar est trouvable dans le dossier de l'application DailyBank.
 
 === Répartition du travail : ===
-image::Capture5.PNG[]
+image::Capture5.png[]
 _Différentes tâches du projet ainsi que le temps nécessaires à leur réalisation._ +
 
-image::Capture4.PNG[]
+image::Capture4.png[]
 _Diagramme de Gantt contenant ces tâches._
 
 === Les packages : ===
