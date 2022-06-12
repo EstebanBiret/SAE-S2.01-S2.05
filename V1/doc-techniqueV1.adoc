@@ -164,11 +164,11 @@ _Emplacement du bouton pour supprimer un compte._
 === Gérer le CRUD : === 
 image::crud.PNG[]
 image::crud1.PNG[]
-Cette fonctionnalité permet seulement au chef d'agence de l'application de gérer un employé (créer, lire, mettre à jour, supprimer).
+Cette fonctionnalité permet au chef d'agence de l'application de gérer un employé (créer, lire, mettre à jour, supprimer).
 à implémenter :
 
-image::crud2.PNG[]
-image::crud3.png[]
+image::employé.PNG[]
+image::employé_dead.png[]
 
 
 === Effectuer un virement de compte à compte : === 
