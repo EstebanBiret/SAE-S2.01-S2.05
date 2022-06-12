@@ -20,19 +20,19 @@
 |         | Gantt V2    |          V2/Gantt_V2.pod                   |     
 |         | Gantt V3 |    V3/Gantt_V3.pod    |     
 |         | Doc. Tec. V1 |    V1/doc-techniqueV1.adoc   |    
-|         | Doc User V1    |  V0/Document%20Utilisateur%20V0.adoc     |
+|         | Doc User V1    |  V0/Document_Utilisateur_V0.adoc     |
 |         | Recette V1  |          V1/Cahier_de_recette_V1.adoc   | 
 |         | Suivi projet|   | 
 | 22/05   | Gantt V2  à jour    |  V2/Gantt_V2.pod      | 
-|         | Doc. Util. V1 |   V1/Document%20utilisateurs%20V1.adoc      |   lien manquant en retard !     Bien préciser le nom de l'appli dans le titre. Donnez quelques infos sur la version java nécéssaire au lancement de l'appli. Votre appli tourne dans tous les environnements ? Linux, Windows ... ?  Penser lorsque c'est nécéssaire d'expliquer à l'utilisateur les cas qui pourraient ne pas fonctionner : ex débiter un compte dont le solde n'est pas suffisant ... que se passe t'il ?   
+|         | Doc. Util. V1 |   V1/Document_Utilisateur_V1.adoc      |   lien manquant en retard !     Bien préciser le nom de l'appli dans le titre. Donnez quelques infos sur la version java nécéssaire au lancement de l'appli. Votre appli tourne dans tous les environnements ? Linux, Windows ... ?  Penser lorsque c'est nécéssaire d'expliquer à l'utilisateur les cas qui pourraient ne pas fonctionner : ex débiter un compte dont le solde n'est pas suffisant ... que se passe t'il ?   
 |         | Doc. Tec. V1 |      V1/doc-techniqueV1.adoc         |    https://github.com/IUT-Blagnac/sae2022-bank-banqueroute-4A-03-/blob/main/V1/retourDocTechnique.adoc 
 |         | Code V1     |       Dans le main.            | 
 |         | Recette V1 |          V1/Cahier_de_recette_V1.adoc          | 
 |         | Gantt V3 à jour   |     V3/Gantt_V3.pod                 | 
 |         | `jar` projet |    | Jar V2 directement
 | 05/06   | Gantt V3 à Jour  |    |  
-|         | Doc. Util. V2 (version finale pour nous) |   V2/Doc%20Util%20V2.adoc   |           
-|         | Doc. Tec. V2 |   bastien/hugo a faire |     
+|         | Doc. Util. V2 (version finale pour nous) |   V2/Doc_Util_V2.adoc   |           
+|         | Doc. Tec. V2 |   V2/Doc_Technique_V2.adoc |     
 |         | Code V2     |   Dans le main.                    |
 |         | Recette V2  |  V2/Cahier_de_recette_V2.adoc |
 |         | `jar` projet |   Dans le main  |
