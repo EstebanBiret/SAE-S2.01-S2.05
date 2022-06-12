@@ -196,26 +196,26 @@ Sélectionnez le découvert autorisé et le solde de premier dépot car sans cel
 === Effectuer un virement de compte à compte : ===
 
 Afin d'effectuer un virement nous allons nous placer sur un compte client puis allons voir les opération. +
-En bas des boutons créditer et débiter un compte se trouve le bouton "Virement vers un compte". Selectionnez un compte et cliquez sur "Virement vers un compte". +
+En bas des boutons créditer et débiter un compte se trouve le bouton "Enregistrer Virement". Sélectionnez un compte et cliquez sur ce bouton. +
 
-image::virementversuncompte.png[]
+image::virement2.PNG[]
 
 Vous atterrirez sur une page qui vous demandera de choisir le compte vers lequel vous voulez faire le virement et le montant que vous voulez envoyer. +
 Vérifiez bien que le montant du virement est égal ou inférieur au solde du compte sinon le virement sera impossible.
 
-image::virementversuncompte2.png[]
+image::virement1.PNG[]
 
 === Clôturer un compte : ===
 
-Pour cloturer un compte, rendez vous sur la page des comptes d'un client pour sélectionner le compte concerné et cliquer sur "Supprimer un compte" :
+Pour clôturer un compte, rendez vous sur la page des comptes d'un client pour sélectionner le compte concerné et cliquer sur "Supprimer un compte" :
 
 image::Capture.png[]
 
-En cliquant sur le compte en allant voir les opérations on se rend compte que on ne peux plus agir sur ce compte car les options sont désactivées :
+En cliquant sur le compte et en allant voir les opérations, on se rend compte qu'on ne peux plus agir sur ce compte car les options sont désactivées :
 
 image::cloturercompte2.png[]
 
-==  5b. Version développer V1 chef d'agence :
+==  5b. Version développée V1 chef d'agence :
 
 === Gérer les employés :  ===
 
@@ -229,7 +229,7 @@ image::inactif2.png[]
 
 On clique dessus et le compte se désactive, et les guichetiers n'y auront plus accès.
 
-==  6a. Version développer V2 guichetier :
+==  6a. Version développée V2 guichetier :
 
 === Générer un relevé mensuel d’un compte en PDF : ===
 
@@ -247,7 +247,7 @@ image::relevemensuel.png[]
 
 === Gérer les prélèvements automatiques des comptes : ===
 
-==  6b. Version développer V2 chef d'agence :
+==  6b. Version développée V2 chef d'agence :
 
 === Effectuer un Débit exceptionnel : ===
 
