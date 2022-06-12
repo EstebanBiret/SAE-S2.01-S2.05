@@ -83,7 +83,8 @@ _Diagramme de Gantt contenant ces tâches._
 image::creer.PNG[]
 image::creer1.png[]
 Cette fonctionnalité permet à tous les utilisateurs de l'application de créer un nouveau client.
-Lorsque un utilisateur clique sur le bouton "nouveau client", le contrôleur clientsmanagementcontroller du package application.control transfère les informations nécessaires au contrôleur clientsmanagement du package application.control pour l’affichage de la fenêtre de création d’un client. Une fois fait, une fenêtre s'affiche avec toutes les informations du client. Ses informations doivent être valide pour que la création de celui-ci soit validé. Une fois les informations validées les informations s'enregistrent dans la base de données, les informations de ce nouveau client son ensuite affichées dans le contrôleur clientsmanagementcontroller.
+Cette fonctionnalité permet à tous les utilisateurs de l'application de créer un nouveau client.
+Lorsque un utilisateur clique sur le bouton "Nouveau client", le contrôleur clientsmanagementcontroller du package application.control transfère les informations nécessaires au contrôleur clientsmanagement du package application.control pour l’affichage de la fenêtre de création d’un client. Une fois fait, une fenêtre s'affiche avec toutes les informations du client. Ces informations doivent être valide pour la création du client en question. Une fois les informations validées, elles s'enregistrent dans la base de données, et sont ensuite affichées dans le contrôleur clientsmanagementcontroller.
 
 image::creer3.PNG[]
 _Interface de création d'un client._
@@ -93,7 +94,7 @@ _Interface de création d'un client._
 image::creer.PNG[]
 image::modifier.PNG[]
 Cette fonctionnalité permet à tous les utilisateurs de l'application de modifier les informations d'un client présent dans la base de données.
-Lorsqu'un utilisateur clique sur le bouton "modifier", le contrôleur clientsmanagementcontroller du package application.control transfère les informations nécessaires au contrôleur clientsmanagement du package application.control pour l’affichage de la fenêtre de modification d’un client. Une fois fait, une fenêtre s'affiche où toutes les informations du client apparaissent, chacune des ces informations peuvent être modifiées si chacune d'entre elles sont valides. Une fois que les informations modifiées sont validées les informations s'actualisent dans la base de données, les nouvelles informations du client sont ensuite affichées dans le contrôleur clientsmanagementcontroller.
+Lorsqu'un utilisateur clique sur le bouton "modifier", le contrôleur clientsmanagementcontroller du package application.control transfère les informations nécessaires au contrôleur clientsmanagement du package application.control pour l’affichage de la fenêtre de modification d’un client. Une fois fait, une fenêtre s'affiche où toutes les informations du client apparaissent, chacune des ces informations peuvent être modifiées si chacune d'entre elles sont valides. Une fois que les informations modifiées sont validées, elles sont mises à jour dans la base de donnéeset affichées dans le contrôleur clientsmanagementcontroller.
 
 image::modifier2.PNG[]
 _Interface de modification d'un client._
@@ -111,7 +112,7 @@ _Interface de recherche et de consultation des clients._
 image::consulter1.PNG[]
 image::consulter2.PNG[]
 Cette fonctionnalité permet à tous les utilisateurs de l'application de consulter les comptes d'un client.
-Lorsque un utilisateur clique sur un des clients de la liste, le bouton « comptes client » peut être cliqué. Si le bouton est cliqué, le contrôleur comptesmanagementcontroller du package application.view transfère les informations au contrôleur comptesmanagement du package application.control pour l’affichage de la fenêtre de gestion des comptes. Si tout se passe correctement une fenêtre avec toutes les informations comptes du client choisi s'ouvre.
+Lorsque un utilisateur clique sur un des clients de la liste, le bouton « comptes client » peut être cliqué. Si le bouton est cliqué, le contrôleur comptesmanagementcontroller du package application.view transfère les informations au contrôleur comptesmanagement du package application.control pour l’affichage de la fenêtre de gestion des comptes. Une fenêtre avec toutes les informations des comptes du client choisi s'ouvre alors.
 
 image::screen1.PNG[]
 _Interface de consultation des comptes d'un client._
@@ -120,7 +121,7 @@ _Interface de consultation des comptes d'un client._
 image::operation.PNG[]
 image::operation1.PNG[]
 Cette fonctionnalité permet à tous les utilisateurs de l'application de consulter les opérations des comptes des clients.
-Lorsqu'un utilisateur clique sur un des clients de la liste, le bouton « voir opérations » peut être cliqué.  Si le bouton est cliqué, le contrôleur comptesmanagementcontroller du package application.view transfère les informations au contrôleur operationmanagement du package application.control pour l’affichage de la fenêtre de gestion des opérations de chaque client. Si tout se passe correctement, une fenêtre avec toutes les opérations d'un compte du client choisi s'ouvre.
+Lorsqu'un utilisateur clique sur un des clients de la liste, le bouton « Voir opérations » est activé.  Si le bouton est cliqué, le contrôleur comptesmanagementcontroller du package application.view transfère les informations au contrôleur operationmanagement du package application.control pour l’affichage de la fenêtre de gestion des opérations de chaque client. Une fenêtre avec toutes les opérations d'un compte du client choisi s'ouvre alors.
 
 image::operation2.PNG[]
 _Interface de consultation des opérations d'un client._
