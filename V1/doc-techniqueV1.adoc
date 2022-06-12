@@ -1,4 +1,4 @@
-= Documentation Technique V1 DalyBank
+= Documentation Technique V1 DailyBank
 :toc:
 :toc-title: Sommaire
 
@@ -17,9 +17,9 @@
 
 image::Capture2.png[]
 
-L’application DailyBank et faite pour deux utilisateurs distincts : 
+L’application DailyBank est faite pour deux utilisateurs distincts : 
 
-** Les guichetiers : Ils possèdent les droits leur permettant de gérer des clients ainsi comptes que des comptes de l'agence. Mais aussi :
+** Les Guichetiers : Ils possèdent les droits leur permettant de gérer des clients ainsi comptes que des comptes de l'agence. Mais aussi :
 * Clôturer un compte
 * Effectuer un virement de compte à compte
 * Modifier les informations des clients
@@ -30,13 +30,13 @@ L’application DailyBank et faite pour deux utilisateurs distincts :
 
 ** Les Chefs d’Agence : Un Chef d'Agence peut faire les mêmes choses que le guichetier, avec en plus :
 * Rendre inactif un client
-* Gérer le CRUD
+* Gérer les employés (faire le CRUD)
 
 == 2. Architecture
 
 === Installation : ===
 
-    Pour l'installation de l'application DailyBank, on peut l'installer sur github dans les différents dépôts.
+    Pour l'installation de l'application DailyBank, rendez-vous sur Github dans les différents dépôts.
     
 image::Capture6.PNG[]
 _Emplacement du fichier V1 du code._
@@ -82,9 +82,8 @@ _Diagramme de Gantt contenant ces tâches._
 
 image::creer.PNG[]
 image::creer1.png[]
-Cette fonctionnalité permet à tous les utilisateurs de l'application de créer un nouveau client.
-Cette fonctionnalité permet à tous les utilisateurs de l'application de créer un nouveau client.
-Lorsque un utilisateur clique sur le bouton "Nouveau client", le contrôleur clientsmanagementcontroller du package application.control transfère les informations nécessaires au contrôleur clientsmanagement du package application.control pour l’affichage de la fenêtre de création d’un client. Une fois fait, une fenêtre s'affiche avec toutes les informations du client. Ces informations doivent être valide pour la création du client en question. Une fois les informations validées, elles s'enregistrent dans la base de données, et sont ensuite affichées dans le contrôleur clientsmanagementcontroller.
+Cette fonctionnalité permet à tous les utilisateurs de l'application de créer un nouveau client..
+Lorsqu'un utilisateur clique sur le bouton "Nouveau client", le contrôleur clientsmanagementcontroller du package application.control transfère les informations nécessaires au contrôleur clientsmanagement du package application.control pour l’affichage de la fenêtre de création d’un client. Une fois fait, une fenêtre s'affiche avec toutes les informations du client. Ces informations doivent être valide pour la création du client en question. Une fois les informations validées, elles s'enregistrent dans la base de données, et sont ensuite affichées dans le contrôleur clientsmanagementcontroller.
 
 image::creer3.PNG[]
 _Interface de création d'un client._
@@ -94,7 +93,7 @@ _Interface de création d'un client._
 image::creer.PNG[]
 image::modifier.PNG[]
 Cette fonctionnalité permet à tous les utilisateurs de l'application de modifier les informations d'un client présent dans la base de données.
-Lorsqu'un utilisateur clique sur le bouton "modifier", le contrôleur clientsmanagementcontroller du package application.control transfère les informations nécessaires au contrôleur clientsmanagement du package application.control pour l’affichage de la fenêtre de modification d’un client. Une fois fait, une fenêtre s'affiche où toutes les informations du client apparaissent, chacune des ces informations peuvent être modifiées si chacune d'entre elles sont valides. Une fois que les informations modifiées sont validées, elles sont mises à jour dans la base de donnéeset affichées dans le contrôleur clientsmanagementcontroller.
+Lorsqu'un utilisateur clique sur le bouton "modifier", le contrôleur clientsmanagementcontroller du package application.control transfère les informations nécessaires au contrôleur clientsmanagement du package application.control pour l’affichage de la fenêtre de modification d’un client. Une fois fait, une fenêtre s'affiche où toutes les informations du client apparaissent, chacune des ces informations peuvent être modifiées si chacune d'entre elles sont valides. Une fois que les informations modifiées sont validées, elles sont mises à jour dans la base de données et affichées dans le contrôleur clientsmanagementcontroller.
 
 image::modifier2.PNG[]
 _Interface de modification d'un client._
@@ -103,7 +102,7 @@ _Interface de modification d'un client._
 image::creer.PNG[]
 image::rechercher1.PNG[]
 Cette fonctionnalité permet à tous les utilisateurs de l'application de consulter la liste des clients.
-Lorsque un utilisateur clique sur le bouton "rechercher", le contrôleur clientsmanagementcontroller du package application.control transfère les informations nécessaires à l’affichage des clients. Elle permet de consulter la liste des clients de l’Agence bancaire. 
+Lorsque un utilisateur clique sur le bouton "Rechercher", le contrôleur clientsmanagementcontroller du package application.control transfère les informations nécessaires à l’affichage des clients. Elle permet de consulter la liste des clients de l’agence bancaire. 
 
 image::rechercher.PNG[]
 _Interface de recherche et de consultation des clients._
@@ -112,7 +111,7 @@ _Interface de recherche et de consultation des clients._
 image::consulter1.PNG[]
 image::consulter2.PNG[]
 Cette fonctionnalité permet à tous les utilisateurs de l'application de consulter les comptes d'un client.
-Lorsque un utilisateur clique sur un des clients de la liste, le bouton « comptes client » peut être cliqué. Si le bouton est cliqué, le contrôleur comptesmanagementcontroller du package application.view transfère les informations au contrôleur comptesmanagement du package application.control pour l’affichage de la fenêtre de gestion des comptes. Une fenêtre avec toutes les informations des comptes du client choisi s'ouvre alors.
+Lorsqu'un utilisateur clique sur un des clients de la liste, le bouton « comptes client » est activé. Si le bouton est cliqué, le contrôleur comptesmanagementcontroller du package application.view transfère les informations au contrôleur comptesmanagement du package application.control pour l’affichage de la fenêtre de gestion des comptes. Une fenêtre avec toutes les informations des comptes du client choisi s'ouvre alors.
 
 image::screen1.PNG[]
 _Interface de consultation des comptes d'un client._
@@ -120,7 +119,7 @@ _Interface de consultation des comptes d'un client._
 === Consulter les opérations des comptes des clients :  ===
 image::operation.PNG[]
 image::operation1.PNG[]
-Cette fonctionnalité permet à tous les utilisateurs de l'application de consulter les opérations des comptes des clients.
+Cette fonctionnalité permet à tous les utilisateurs de l'application de consulter les opérations des comptes d'un client.
 Lorsqu'un utilisateur clique sur un des clients de la liste, le bouton « Voir opérations » est activé.  Si le bouton est cliqué, le contrôleur comptesmanagementcontroller du package application.view transfère les informations au contrôleur operationmanagement du package application.control pour l’affichage de la fenêtre de gestion des opérations de chaque client. Une fenêtre avec toutes les opérations d'un compte du client choisi s'ouvre alors.
 
 image::operation2.PNG[]
@@ -139,7 +138,7 @@ _Interface de débit d'un compte._
 image::inactif.PNG[]
 image::inactif1.PNG[]
 Cette fonctionnalité permet seulement au chef d'agence de l'application de rendre inactif un client.
-Lorsque le chef d'agence clique sur un des clients de la liste, le bouton « désactiver client » peut être cliqué. Si le bouton est cliqué, le contrôleur comptesmanagementcontroller du package application.view transfère les informations nécessaires pour désactiver le client.
+Lorsque le chef d'agence clique sur un des clients de la liste, le bouton « Désactiver client » est activé. Si le bouton est cliqué, le contrôleur comptesmanagementcontroller du package application.view transfère les informations nécessaires pour désactiver le client.
 
 image::inactif2.PNG[]
 _Emplacement du bouton pour désactiver un compte._
