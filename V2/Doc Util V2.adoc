@@ -150,9 +150,9 @@ Nous pouvons voir que en bas nous pouvons maintenant rendre un client inactif :
 
 image::Client inactif.png[]
 
-La fonctionnalité n'est pas encore opérationnel mais ce bouton permet de supprimer un client de la base de données.
+Une fois désactivé, le client peut être réactivé, en cliquant à nouveau sur le bouton (nous ne savions pas s'il fallait complètement le supprimer ou juste le désactiver pour possiblement le réactiver plus tard, nous avons donc fait le choix de pouvoir désactiver un client et de le réactiver ensuite, mais à l'inverse de supprimer un employé, comme ça nous avons traité les 2 aspects du problème).
 
-==  5a. Version développer V1 guichetier :
+==  5a. Version développée V1 guichetier :
 
 === Créditer/débiter un compte :  ===
 
