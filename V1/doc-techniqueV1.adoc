@@ -167,8 +167,8 @@ image::crud1.PNG[]
 Cette fonctionnalité permet seulement au chef d'agence de l'application de gérer un employé (créer, lire, mettre à jour, supprimer).
 Lorsque le chef d'agence clique sur le bouton "Employés" dans la menu bar gestion de la vue dailybankmainframe, un nouvelle vue employemanagement avec toute la liste des employés s'affiche. 
 
-image::crud2.PNG[]
-image::crud3.png[]
+image::employé.PNG[]
+
 
 
 === Effectuer un virement de compte à compte : === 
