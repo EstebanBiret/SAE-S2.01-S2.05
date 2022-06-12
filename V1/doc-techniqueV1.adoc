@@ -128,8 +128,8 @@ _Interface de consultation des opérations d'un client._
 === Débiter un compte : === 
 image::debit.PNG[]
 image::debit1.PNG[]
-Cette fonctionnalité permet à tous les utilisateurs de l'application de consulter les opérations des comptes des clients.
-Lorsqu'un utilisateur clique sur un des clients de la liste, le bouton « voir opérations » peut être cliqué. Si tous ce passe correctement une fenêtre avec toutes les opérations d'un compte du client choisi s'ouvre, il faut ensuite cliquer sur l'un des comptes, puis sur le bouton "voir opérations". Une fenêtre s'ouvre et il suffit de cliquer sur le bouton "Enregistrer débit". Chaque opération est enregistrée.
+Cette fonctionnalité permet à tous les utilisateurs de l'application de débiter des comptes des clients.
+Lorsqu'un utilisateur clique sur un des clients de la liste, le bouton « voir opérations » peut être cliqué. Si tous ce passe correctement une fenêtre avec toutes les opérations d'un compte du client choisi s'ouvre, il faut ensuite cliquer sur l'un des comptes, puis sur le bouton "voir opérations". Une fenêtre s'ouvre et il suffit de cliquer sur le bouton "Enregistrer débit". Chaque opération est enregistrée dans la BD.
 
 image::debit2.PNG[]
 _Interface de débit d'un compte._
@@ -146,8 +146,8 @@ _Emplacement du bouton pour désactiver un compte._
 === Débiter/Créditer un compte : === 
 image::debit.PNG[]
 image::credit.png[]
-Cette fonctionnalité permet à tous les utilisateurs de l'application de consulter les opérations des comptes des clients.
-Lorsqu'un utilisateur clique sur un des clients de la liste, le bouton « voir opérations » peut être cliqué. Si tout se passe correctement, une fenêtre avec toutes les opérations d'un compte du client choisi s'ouvre, il faut ensuite cliquer sur l'un des comptes, puis sur le bouton "voir opérations". Une fenêtre s'ouvre et enfin il suffit de cliquer sur le bouton "Enregistrer débit" ou "Enregistrer crédit". Chaque opération est enregistrer.
+Cette fonctionnalité permet à tous les utilisateurs de l'application de débiter/créditer des comptes des clients.
+Lorsqu'un utilisateur clique sur un des clients de la liste, le bouton « voir opérations » est activé. Si tout se passe correctement, une fenêtre avec toutes les opérations d'un compte du client choisi s'ouvre, il faut ensuite cliquer sur l'un des comptes, puis sur le bouton "voir opérations". Une fenêtre s'ouvre et enfin il suffit de cliquer sur le bouton "Enregistrer débit" ou "Enregistrer crédit". Chaque opération est enregistrée dans la BD.
 
 image::credit2.png[]
 _Interface de débit et de crédit d'un compte._
