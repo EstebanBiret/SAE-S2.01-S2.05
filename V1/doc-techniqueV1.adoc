@@ -168,7 +168,6 @@ Cette fonctionnalité permet au chef d'agence de l'application de gérer un empl
 à implémenter :
 
 image::employé.PNG[]
-image::employé_dead.png[]
 
 
 === Effectuer un virement de compte à compte : === 
