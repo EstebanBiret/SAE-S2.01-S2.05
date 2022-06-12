@@ -1,4 +1,4 @@
-== Livrables (nous avons enlevé les liens car il menaient à une ancienne version de notre repository et donc pas à jour).
+== Livrables (nous avons enlevé les liens car il menaient à une ancienne version de notre repository et donc pas à jour). Suivez les chemins que nous vous avons indiquer s'il vous plait merci de votre compréhension.
 
 [cols="1,2,2,5",options=header]
 |===
