@@ -44,5 +44,7 @@
 |         | `jar` projet |  Même .jar que V2   |
 |===
 
-fqds<iofqds
+PS : A cause d'un problème avec github nous n'avons pas pu durant toutes la durée de la SAE PUSH nos différents codes sur github ce qui nous à obligés à travailler avec un code commun ce qui nous à retarder de multiples fois dans notre projet et qui nous fait accuser de retard sur la V3.
+Nous nous excusons du désagrément occasionné.
+
 
