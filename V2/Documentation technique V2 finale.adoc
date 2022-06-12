@@ -1,4 +1,4 @@
-= Documentation Technique V1 DalyBank
+= Documentation Technique V1 DailyBank
 :toc:
 :toc-title: Sommaire
 
