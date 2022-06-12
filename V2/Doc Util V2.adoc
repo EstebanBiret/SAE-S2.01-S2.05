@@ -223,11 +223,13 @@ Pour ceci nous allons nous connecter sur un nouveau compte de chef d'agence cett
 
 image::page d'accueil chef d'agence.png[]
 
-En affichant tous les comptes existants et en cliquant sur un compte nous voyons que le bouton "Désactiver client" devient disponible :
+En sélectionnant un employé et en cliquant sur le bouton 'Désactiver employé', celui-ci sera supprimé de la BD. 
 
-image::inactif2.png[]
+image::suppr_employé.PNG[]
 
-On clique dessus et le compte se désactive, et les guichetiers n'y auront plus accès.
+Nous pourrons toujours voir ses informations, mais impossible de le réactiver ou de se connecter avec :
+
+image::employé_dead.PNG[]
 
 ==  6a. Version développée V2 guichetier :
 
@@ -239,17 +241,25 @@ image::compteclientgenererpdf.png[]
 
 Puis une fenêtre s'ouvrira pour vous signaler l'endroit ou se situe le PDF.
 
-image::popuppdf.png[]
+image::pdf.PNG[]
 
-Suivez le chemin indiqué et vous pourrez ouvrir le PDF pour observer votre relevé mensuel :
+Suivez le chemin indiqué et vous pourrez ouvrir le PDF pour observer votre relevé mensuel (à noter que lorsque l'on effectue cette action sur Eclipse, donc dans un workspace, le PDF se situera à la racine de ce dernier, alors que dans un .jar, il se trouvera dans la partie "Téléchargement" de votre ordinateur):
 
-image::relevemensuel.png[]
+image::pdf2.PNG[]
 
 === Gérer les prélèvements automatiques des comptes : ===
 
 ==  6b. Version développée V2 chef d'agence :
 
 === Effectuer un Débit exceptionnel : ===
+
+Cette action se met en place lorsque un Chef d'Agence tente de faire un débit en dépassant le solde du compte autorisé. Un pop-up apparaitra, informant le Chef d'Agence qu'il s'apprête à faire un Débit Exceptionnel :
+
+image::debit_ex.PNG[]
+
+Si c'est un guichetier qui est connecté et qu'il tente cette même procédure, il sera bloqué par l'application, et un message d'erreur rouge apparaitra :
+
+image::debit_ex2.PNG[]
 
 === Simuler un emprunt : ===
 
