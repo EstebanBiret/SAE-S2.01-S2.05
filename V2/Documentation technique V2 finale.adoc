@@ -167,7 +167,7 @@ image::crud1.png[]
 Cette fonctionnalité permet seulement au chef d'agence de l'application de gérer un employé (créer, lire, mettre à jour, supprimer).
 Lorsque le chef d'agence clique sur le bouton "Employés" dans la menu bar gestion de la vue dailybankmainframe, un nouvelle vue employemanagement avec toute la liste des employés s'affiche. 
 
-image::employé.png[]
+image::employé.PNG[]
 
 
 
@@ -187,13 +187,13 @@ image::DCU V2.png[]
 
 Cette fonctionnalité permet d'obtenir le relevé d'un compte client chaque mois pour qu'il puisse savoir ce qu'il à fait sur son compte. Ce relevé se trouve soit dans la racine du projet, soit dans la partie "Téléchargement" de votre ordinateur, suivant si vous utilisez le workspace Eclipse ou le .jar.
 
-image::pdf2.png[]
+image::pdf2.PNG[]
 
 === Effectuer un Débit exceptionnel : ===
 
 Le débit exceptionnel est réservé aux chefs d'agences. Il leur permet d'effectuer sur un compte un débit qui dépasse le seuil de découvert autorisé par celui.
 
-image::debit_ex.png[]
+image::debit_ex.PNG[]
 
 === Simuler un emprunt : ===
 
