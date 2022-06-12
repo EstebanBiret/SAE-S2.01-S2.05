@@ -178,3 +178,9 @@ Cette fonctionnalité permet à tous les utilisateurs de l'application d'effectu
 
 image::virement2.PNG[]
 image::virement3.PNG[]
+
+=== Générer un relevé mensuel d’un compte en PDF : === 
+
+=== Effectuer un Débit exceptionnel : ===
+
+=== Simuler un emprunt : ===
