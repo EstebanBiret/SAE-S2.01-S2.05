@@ -156,7 +156,7 @@ _Interface de débit et de crédit d'un compte._
 image::cloture.PNG[]
 image::cloture1.PNG[]
 Cette fonctionnalité permet à tous les utilisateurs de l'application de clôturer un compte.
-à implémenter :
+Lorsqu'un utilisateur clique sur un des compte de la liste, le bouton « Clôturer compte » est activé. Et un compte peut être clôturer.
 
 image::cloture2.PNG[]
 _Emplacement du bouton pour supprimer un compte._
@@ -164,16 +164,17 @@ _Emplacement du bouton pour supprimer un compte._
 === Gérer le CRUD : === 
 image::crud.PNG[]
 image::crud1.PNG[]
-Cette fonctionnalité permet au chef d'agence de l'application de gérer un employé (créer, lire, mettre à jour, supprimer).
-à implémenter :
+Cette fonctionnalité permet seulement au chef d'agence de l'application de gérer un employé (créer, lire, mettre à jour, supprimer).
+Lorsque le chef d'agence clique sur le bouton "employés" dans la menu bar gestion de la vue dailybankmainframe, un nouvelle vue employemanagement avec toute la liste des employés s'affiche. 
 
-image::employé.PNG[]
+image::crud2.PNG[]
+image::crud3.png[]
 
 
 === Effectuer un virement de compte à compte : === 
 image::virement.PNG[]
 
-Cette fonctionnalité permet à tous les utilisateurs de l'application d'effectuer un virement de compte à compte. Le bouton pour aller à la fenêtre de virement n'est pas encore présent, il sera mis dans le rectangle rouge présent sur la capture d'écran. à implémenter :
+Cette fonctionnalité permet à tous les utilisateurs de l'application d'effectuer un virement de compte à compte. Lorsqu'un utilisateur clique sur un des clients de la liste, le bouton « voir opérations » est activé. Si tout se passe correctement, une fenêtre avec toutes les opérations d'un compte du client choisi s'ouvre, il faut ensuite cliquer sur l'un des comptes, puis sur le bouton "voir opérations". Une fenêtre s'ouvre et enfin il suffit de cliquer sur le bouton "Enregistrer virement".
 
 image::virement2.PNG[]
 image::virement3.PNG[]
