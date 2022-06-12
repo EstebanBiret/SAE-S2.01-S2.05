@@ -44,6 +44,6 @@
 |         | `jar` projet |  Même .jar que V2   |
 |===
 
-PS : A cause d'un problème avec Github nous n'avons pas pu durant toute la durée de la SAE push nos différents fichiers, ce qui nous à obligés à travailler avec un code commun, causant un retard considérable nous empechant de finir entièrement la V3.
+PS : A cause d'un problème avec Github nous n'avons pas pu durant toute la durée de la SAE push nos différents fichiers, ce qui nous à obligés à travailler avec un code commun, causant un retard considérable nous empêchant de finir entièrement la V2.
 
 
