@@ -1,4 +1,4 @@
-= Documentation Technique V2 DailyBank - 12/06/2022
+= Documentation Technique V2 (Finale) DailyBank
 :toc:
 :toc-title: Sommaire
 
@@ -19,7 +19,7 @@ image::Capture2.png[]
 
 L’application DailyBank est faite pour deux utilisateurs distincts : 
 
-** Les guichetiers : Ils possèdent les droits leur permettant de gérer des clients ainsi que des comptes de l'agence. Mais aussi :
+** Les Guichetiers : Ils possèdent les droits leur permettant de gérer des clients ainsi comptes que des comptes de l'agence. Mais aussi :
 * Clôturer un compte
 * Effectuer un virement de compte à compte
 * Modifier les informations des clients
@@ -28,7 +28,7 @@ L’application DailyBank est faite pour deux utilisateurs distincts :
 * Débiter/Créditer un compte
 * Débiter un compte
 
-** Les Chefs d’Agence : Un Chef d'Agence peut faire les mêmes choses que le Guichetier, avec en plus :
+** Les Chefs d’Agence : Un Chef d'Agence peut faire les mêmes choses que le guichetier, avec en plus :
 * Rendre inactif un client
 * Gérer les employés (faire le CRUD)
 
@@ -38,7 +38,7 @@ L’application DailyBank est faite pour deux utilisateurs distincts :
 
     Pour l'installation de l'application DailyBank, rendez-vous sur Github dans les différents dépôts.
     
-image::Capture6.png[]
+image::Capture6.PNG[]
 _Emplacement du fichier V1 du code._
 
 === Le .jar : ===
@@ -46,10 +46,10 @@ _Emplacement du fichier V1 du code._
     Le .jar est trouvable dans le main de notre répository.
 
 === Répartition du travail : ===
-image::Capture5.png[]
+image::Capture5.PNG[]
 _Différentes tâches du projet ainsi que le temps nécessaires à leur réalisation._ +
 
-image::Capture4.png[]
+image::Capture4.PNG[]
 _Diagramme de Gantt contenant ces tâches._
 
 === Les packages : ===
@@ -77,89 +77,115 @@ _Diagramme de Gantt contenant ces tâches._
 
 
 ==  3. Fonctionnalités de l’application
-
-=== Version développée 1 : ===
     
 === Création d’un nouveau client :  ===
 
-image::creer.png[]
+image::creer.PNG[]
 image::creer1.png[]
-Cette fonctionnalité permet à tous les utilisateurs de l'application de créer un nouveau client.
-Lorsque un utilisateur clique sur le bouton "Nouveau client", le contrôleur clientsmanagementcontroller du package application.control transfère les informations nécessaires au contrôleur clientsmanagement du package application.control pour l’affichage de la fenêtre de création d’un client. Une fois fait, une fenêtre s'affiche avec toutes les informations du client. Ces informations doivent être valide pour la création du client en question. Une fois les informations validées, elles s'enregistrent dans la base de données, et sont ensuite affichées dans le contrôleur clientsmanagementcontroller.
+Cette fonctionnalité permet à tous les utilisateurs de l'application de créer un nouveau client..
+Lorsqu'un utilisateur clique sur le bouton "Nouveau client", le contrôleur clientsmanagementcontroller du package application.control transfère les informations nécessaires au contrôleur clientsmanagement du package application.control pour l’affichage de la fenêtre de création d’un client. Une fois fait, une fenêtre s'affiche avec toutes les informations du client. Ces informations doivent être valide pour la création du client en question. Une fois les informations validées, elles s'enregistrent dans la base de données, et sont ensuite affichées dans le contrôleur clientsmanagementcontroller.
 
-image::creer3.png[]
+image::creer3.PNG[]
 _Interface de création d'un client._
 
 === Modification d’un client :  ===
 
-image::creer.png[]
-image::modifier.png[]
+image::creer.PNG[]
+image::modifier.PNG[]
 Cette fonctionnalité permet à tous les utilisateurs de l'application de modifier les informations d'un client présent dans la base de données.
-Lorsqu'un utilisateur clique sur le bouton "modifier", le contrôleur clientsmanagementcontroller du package application.control transfère les informations nécessaires au contrôleur clientsmanagement du package application.control pour l’affichage de la fenêtre de modification d’un client. Une fois fait, une fenêtre s'affiche où toutes les informations du client apparaissent, chacune des ces informations peuvent être modifiées si chacune d'entre elles sont valides. Une fois que les informations modifiées sont validées, elles sont mises à jour dans la base de donnéeset affichées dans le contrôleur clientsmanagementcontroller.
+Lorsqu'un utilisateur clique sur le bouton "modifier", le contrôleur clientsmanagementcontroller du package application.control transfère les informations nécessaires au contrôleur clientsmanagement du package application.control pour l’affichage de la fenêtre de modification d’un client. Une fois fait, une fenêtre s'affiche où toutes les informations du client apparaissent, chacune des ces informations peuvent être modifiées si chacune d'entre elles sont valides. Une fois que les informations modifiées sont validées, elles sont mises à jour dans la base de données et affichées dans le contrôleur clientsmanagementcontroller.
 
-image::modifier2.png[]
+image::modifier2.PNG[]
 _Interface de modification d'un client._
 
 === Consultation des clients : ===
-image::creer.png[]
-image::rechercher1.png[]
+image::creer.PNG[]
+image::rechercher1.PNG[]
 Cette fonctionnalité permet à tous les utilisateurs de l'application de consulter la liste des clients.
-Lorsque un utilisateur clique sur le bouton "rechercher", le contrôleur clientsmanagementcontroller du package application.control transfère les informations nécessaires à l’affichage des clients. Elle permet de consulter la liste des clients de l’Agence bancaire. 
+Lorsque un utilisateur clique sur le bouton "Rechercher", le contrôleur clientsmanagementcontroller du package application.control transfère les informations nécessaires à l’affichage des clients. Elle permet de consulter la liste des clients de l’agence bancaire. 
 
-image::rechercher.png[]
+image::rechercher.PNG[]
 _Interface de recherche et de consultation des clients._
 
 === Consulter les comptes d’un client : ===
-image::consulter1.png[]
-image::consulter2.png[]
+image::consulter1.PNG[]
+image::consulter2.PNG[]
 Cette fonctionnalité permet à tous les utilisateurs de l'application de consulter les comptes d'un client.
-Lorsque un utilisateur clique sur un des clients de la liste, le bouton « comptes client » peut être cliqué. Si le bouton est cliqué, le contrôleur comptesmanagementcontroller du package application.view transfère les informations au contrôleur comptesmanagement du package application.control pour l’affichage de la fenêtre de gestion des comptes. Une fenêtre avec toutes les informations des comptes du client choisi s'ouvre alors.
+Lorsqu'un utilisateur clique sur un des clients de la liste, le bouton « comptes client » est activé. Si le bouton est cliqué, le contrôleur comptesmanagementcontroller du package application.view transfère les informations au contrôleur comptesmanagement du package application.control pour l’affichage de la fenêtre de gestion des comptes. Une fenêtre avec toutes les informations des comptes du client choisi s'ouvre alors.
 
-image::screen1.png[]
+image::screen1.PNG[]
 _Interface de consultation des comptes d'un client._
 
 === Consulter les opérations des comptes des clients :  ===
-image::operation.png[]
-image::operation1.png[]
-Cette fonctionnalité permet à tous les utilisateurs de l'application de consulter les opérations des comptes des clients.
+image::operation.PNG[]
+image::operation1.PNG[]
+Cette fonctionnalité permet à tous les utilisateurs de l'application de consulter les opérations des comptes d'un client.
 Lorsqu'un utilisateur clique sur un des clients de la liste, le bouton « Voir opérations » est activé.  Si le bouton est cliqué, le contrôleur comptesmanagementcontroller du package application.view transfère les informations au contrôleur operationmanagement du package application.control pour l’affichage de la fenêtre de gestion des opérations de chaque client. Une fenêtre avec toutes les opérations d'un compte du client choisi s'ouvre alors.
 
-image::operation2.png[]
+image::operation2.PNG[]
 _Interface de consultation des opérations d'un client._
 
 === Débiter un compte : === 
-image::debit.png[]
-image::debit1.png[]
-Cette fonctionnalité permet à tous les utilisateurs de l'application de consulter les opérations des comptes des clients.
-Lorsqu'un utilisateur clique sur un des clients de la liste, le bouton « voir opérations » peut être cliqué. Si tous ce passe correctement une fenêtre avec toutes les opérations d'un compte du client choisi s'ouvre, il faut ensuite cliquer sur l'un des comptes, puis sur le bouton "voir opérations". Une fenêtre s'ouvre et il suffit de cliquer sur le bouton "Enregistrer débit". Chaque opération est enregistrée.
+image::debit.PNG[]
+image::debit1.PNG[]
+Cette fonctionnalité permet à tous les utilisateurs de l'application de débiter des comptes des clients.
+Lorsqu'un utilisateur clique sur un des clients de la liste, le bouton « voir opérations » peut être cliqué. Si tous ce passe correctement une fenêtre avec toutes les opérations d'un compte du client choisi s'ouvre, il faut ensuite cliquer sur l'un des comptes, puis sur le bouton "voir opérations". Une fenêtre s'ouvre et il suffit de cliquer sur le bouton "Enregistrer débit". Chaque opération est enregistrée dans la BD.
 
-image::debit2.png[]
+image::debit2.PNG[]
 _Interface de débit d'un compte._
 
 === Rendre inactif un client : === 
-image::inactif.png[]
-image::inactif1.png[]hef d'agence de l'application de gérer un employé (créer, lire, mettre à jour, supprimer).
-à implémenter :
+image::inactif.PNG[]
+image::inactif1.PNG[]
+Cette fonctionnalité permet seulement au chef d'agence de l'application de rendre inactif un client.
+Lorsque le chef d'agence clique sur un des clients de la liste, le bouton « Désactiver client » est activé. Si le bouton est cliqué, le contrôleur comptesmanagementcontroller du package application.view transfère les informations nécessaires pour désactiver le client.
 
-image::crud2.png[]
-image::crud3.png[]
+image::inactif2.PNG[]
+_Emplacement du bouton pour désactiver un compte._
+
+=== Débiter/Créditer un compte : === 
+image::debit.PNG[]
+image::credit.png[]
+Cette fonctionnalité permet à tous les utilisateurs de l'application de débiter/créditer des comptes des clients.
+Lorsqu'un utilisateur clique sur un des clients de la liste, le bouton « voir opérations » est activé. Si tout se passe correctement, une fenêtre avec toutes les opérations d'un compte du client choisi s'ouvre, il faut ensuite cliquer sur l'un des comptes, puis sur le bouton "voir opérations". Une fenêtre s'ouvre et enfin il suffit de cliquer sur le bouton "Enregistrer débit" ou "Enregistrer crédit". Chaque opération est enregistrée dans la BD.
+
+image::credit2.png[]
+_Interface de débit et de crédit d'un compte._
+
+=== Clôturer un compte : === 
+image::cloture.PNG[]
+image::cloture1.PNG[]
+Cette fonctionnalité permet à tous les utilisateurs de l'application de clôturer un compte.
+Lorsqu'un utilisateur clique sur un des compte de la liste, le bouton « Clôturer compte » est activé. Un compte clôturer peut etre réouvert, son solde sera alors réinitialisé à un certain montant.
+
+image::cloture2.PNG[]
+_Emplacement du bouton pour supprimer un compte._
+
+=== Gérer le CRUD : === 
+image::crud.PNG[]
+image::crud1.PNG[]
+Cette fonctionnalité permet seulement au chef d'agence de l'application de gérer un employé (créer, lire, mettre à jour, supprimer).
+Lorsque le chef d'agence clique sur le bouton "Employés" dans la menu bar gestion de la vue dailybankmainframe, un nouvelle vue employemanagement avec toute la liste des employés s'affiche. 
+
+image::employé.PNG[]
+
 
 
 === Effectuer un virement de compte à compte : === 
-image::virement.png[]
-image::virement1.png[]
-Cette fonctionnalité permet à tous les utilisateurs de l'application d'effectuer un virement de compte à compte. Il suffit de renseigner le montant et le numéro du compte choisi. IL faut que les deux comptes appartiennent au même client :
+image::virement.PNG[]
 
-image::virement2.png[]
-image::virement3.png[]
+Cette fonctionnalité permet à tous les utilisateurs de l'application d'effectuer un virement de compte à compte. Lorsqu'un utilisateur clique sur un des clients de la liste, le bouton « voir opérations » est activé. Une fenêtre avec toutes les opérations d'un compte du client choisi s'ouvre, il faut ensuite cliquer sur l'un des comptes, puis sur le bouton "voir opérations". Une fenêtre s'ouvre et enfin il suffit de cliquer sur le bouton "Enregistrer virement". A noter que l'on ne peut faire un virement qu'entre comptes d'un même propriétaire.
 
-=== Version développé 2 : ===
+image::virement2.PNG[]
+image::virement3.PNG[]
+
+=== Version développée 2 : ===
 
 image::DCU V2.png[]
 
 === Générer un relevé mensuel d’un compte en PDF : === 
 
-Cette fonctionnalité permet d'obtenir le relevé d'un compte client chaque mois pour qu'il puisse savoir ce qu'il à fait sur son compte.
+Cette fonctionnalité permet d'obtenir le relevé d'un compte client chaque mois pour qu'il puisse savoir ce qu'il à fait sur son compte. Ce relevé se trouve soit dans la racine du projet, soit dans la partie "Téléchargement" de votre ordinateur, suivant si vous utilisez le workspace Eclipse ou le .jar.
 
 image::pdf2.PNG[]
 
