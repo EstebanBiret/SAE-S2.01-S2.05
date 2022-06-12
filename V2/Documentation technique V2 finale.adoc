@@ -153,31 +153,31 @@ image::credit2.png[]
 _Interface de débit et de crédit d'un compte._
 
 === Clôturer un compte : === 
-image::cloture.PNG[]
-image::cloture1.PNG[]
+image::cloture.png[]
+image::cloture1.png[]
 Cette fonctionnalité permet à tous les utilisateurs de l'application de clôturer un compte.
 Lorsqu'un utilisateur clique sur un des compte de la liste, le bouton « Clôturer compte » est activé. Un compte clôturer peut etre réouvert, son solde sera alors réinitialisé à un certain montant.
 
-image::cloture2.PNG[]
+image::cloture2.png[]
 _Emplacement du bouton pour supprimer un compte._
 
 === Gérer le CRUD : === 
-image::crud.PNG[]
-image::crud1.PNG[]
+image::crud.png[]
+image::crud1.png[]
 Cette fonctionnalité permet seulement au chef d'agence de l'application de gérer un employé (créer, lire, mettre à jour, supprimer).
 Lorsque le chef d'agence clique sur le bouton "Employés" dans la menu bar gestion de la vue dailybankmainframe, un nouvelle vue employemanagement avec toute la liste des employés s'affiche. 
 
-image::employé.PNG[]
+image::employé.png[]
 
 
 
 === Effectuer un virement de compte à compte : === 
-image::virement.PNG[]
+image::virement.png[]
 
 Cette fonctionnalité permet à tous les utilisateurs de l'application d'effectuer un virement de compte à compte. Lorsqu'un utilisateur clique sur un des clients de la liste, le bouton « voir opérations » est activé. Une fenêtre avec toutes les opérations d'un compte du client choisi s'ouvre, il faut ensuite cliquer sur l'un des comptes, puis sur le bouton "voir opérations". Une fenêtre s'ouvre et enfin il suffit de cliquer sur le bouton "Enregistrer virement". A noter que l'on ne peut faire un virement qu'entre comptes d'un même propriétaire.
 
-image::virement2.PNG[]
-image::virement3.PNG[]
+image::virement2.png[]
+image::virement3.png[]
 
 === Version développée 2 : ===
 
@@ -187,7 +187,7 @@ image::DCU V2.png[]
 
 Cette fonctionnalité permet d'obtenir le relevé d'un compte client chaque mois pour qu'il puisse savoir ce qu'il à fait sur son compte. Ce relevé se trouve soit dans la racine du projet, soit dans la partie "Téléchargement" de votre ordinateur, suivant si vous utilisez le workspace Eclipse ou le .jar.
 
-image::pdf2.PNG[]
+image::pdf2.png[]
 
 === Effectuer un Débit exceptionnel : ===
 
